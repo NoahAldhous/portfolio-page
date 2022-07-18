@@ -1,0 +1,60 @@
+
+.App{
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Header{
+ background-color: black;
+ opacity: 50%;
+ width: 100vw;
+ height: 75px;
+ position: fixed;
+}
+
+.Main{
+ background-color: white;
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+ height: 100%;
+}
+
+.Navbar-container{
+  background-color: gray;
+  height: 100vh;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  padding-top: 75px;
+  position: fixed;
+  padding-left: 10px;
+}
+
+.Navbar{
+  height: 75vh;
+  width: 10vh;
+  position: fixed;
+  background-color: red;
+  margin-top: 20px;
+}
+
+.Navbar:hover{
+  width:30vh
+}
+
+.Content-container{
+  background-color: green;
+  height:100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
