@@ -6,6 +6,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: "Nixie One";
+  text-decoration: none;
 }
 
 .Header{
@@ -29,32 +31,37 @@
   height: 100vh;
   width: 10%;
   display: flex;
-  justify-content: center;
   padding-top: 75px;
   position: fixed;
 }
 
 .Navbar{
-  height: 75vh;
-  width: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20%;
+  height: 80vh;
+  width: 75px;
   position: relative;
   margin-top: 20px;
   transition: 0.3s;
   flex-shrink: 0;
-  left:0;
   border-radius: 15px;
   border: 3px solid #B8336A;
-  background: transparent
+  background: transparent;
 }
 
 .Navbar:hover{
   width:40vh;
-  left:15vh;
+}
+
+.Navbar:hover .Navbutton{
+  width:90%;
 }
 
 .Content-container{
-  background-color: gray;
-  height:100%;
+  background-color: #0E101B;
+  height:100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
