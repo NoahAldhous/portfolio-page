@@ -10,14 +10,6 @@
   text-decoration: none;
 }
 
-.Header{
- background-color: black;
- opacity: 50%;
- width: 100vw;
- height: 75px;
- position: fixed;
-}
-
 .Main{
  background-color: white;
  display: flex;

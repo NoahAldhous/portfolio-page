@@ -1,21 +1,22 @@
+import Header from '../Header/Header';
 import Navbutton from '../Navbutton/Navbutton';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <div className="Header">Hello</div>
+      <Header/>
       <div className="Main">
         <div className="Navbar-container">
           <div className="Navbar">
-            <Navbutton className='Navbutton' buttonText = "AM"/>
-            <Navbutton className='Navbutton' buttonText = "PF"/>
-            <Navbutton className='Navbutton' buttonText = "EX"/>
-            <Navbutton className='Navbutton' buttonText = "CI"/>
-            <Navbutton className='Navbutton' buttonText = "LI"/>
-            <Navbutton className='Navbutton' buttonText = "TW"/>
-            <Navbutton className='Navbutton' buttonText = "GH"/>
-            <Navbutton className='Navbutton' buttonText = "IG"/>
+            <Navbutton buttonText = "AM"/>
+            <Navbutton buttonText = "PF"/>
+            <Navbutton buttonText = "EX"/>
+            <Navbutton buttonText = "CI"/>
+            <Navbutton buttonText = "LI"/>
+            <Navbutton buttonText = "TW"/>
+            <Navbutton buttonText = "GH"/>
+            <Navbutton buttonText = "IG"/>
           </div>
           
         </div>

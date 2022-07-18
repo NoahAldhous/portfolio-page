@@ -1,0 +1,21 @@
+.Header{
+    background-color: #0E101B;
+    width: 100vw;
+    height: 75px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+   }
+
+.email{
+    margin-right: 5%;
+    font-size: 32px;
+    color: #F3D1FF;
+    transition: 0.2s;
+}
+
+.email:hover{
+    margin-bottom: 0.5%;
+    color:#B8336A;
+}
