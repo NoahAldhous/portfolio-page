@@ -3,6 +3,7 @@
     width: 100vw;
     height: 75px;
     position: fixed;
+    transition: top 0.4s;
     display: flex;
     align-items: center;
     justify-content: right;

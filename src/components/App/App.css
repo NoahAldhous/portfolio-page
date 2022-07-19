@@ -1,6 +1,9 @@
+:root{
+  --Navbar-container-width: 100px;
+ }
 
 .App{
-  background-color: grey;
+  background-color: black;
   width: 100%;
   height: 100%;
   display: flex;
@@ -11,7 +14,7 @@
 }
 
 .Main{
- background-color: white;
+ background-color: black;
  display: flex;
  flex-direction: row;
  width: 100%;
@@ -21,7 +24,7 @@
 .Navbar-container{
   background-color: #0E101B;
   height: 100vh;
-  width: 10%;
+  width: var(--Navbar-container-width);
   display: flex;
   padding-top: 75px;
   position: fixed;
@@ -29,12 +32,12 @@
 
 .Content-container{
   background-color: #0E101B;
-  height:100vh;
+  height:100%;
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+  align-items: left;
+  justify-content: left;
 
+}
 
