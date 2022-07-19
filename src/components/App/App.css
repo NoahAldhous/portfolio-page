@@ -3,12 +3,6 @@
   --Header-height: 10vh;
  }
 
- @media only screen and (max-width: 600px) {
-  :root{
-    --Navbar-container-width: 10vw;
-    --Header-height: 3vh;
-  }
-}
 
 .App{
   background-color: white;
@@ -30,7 +24,7 @@
 }
 
 .Navbar-container{
-  background-color: green;
+  background-color: #0E101B;
   height: 100vh;
   width: var(--Navbar-container-width);
   display: flex;
@@ -39,7 +33,7 @@
 }
 
 .Content-container{
-  background-color: red;
+  background-color: #0E101B;
   height:100%;
   width: 70vw;
   display: flex;
@@ -50,7 +44,26 @@
 }
 
 .Line-container{
-  background-color: blue;
+  background-color: #0E101B;
   width: 20vw;
   height:100vh;
+}
+
+/* Phone Sizing */
+@media only screen and (max-width: 600px) {
+  :root{
+    --Navbar-container-width: 15vw;
+    --Header-height: 3vh;
+  }
+
+  .Line-container{
+    display:none;
+    width: 0vw;
+    height: 0vh;
+  }
+
+  .Content-container{
+    width: 85vw;
+  }
+
 }

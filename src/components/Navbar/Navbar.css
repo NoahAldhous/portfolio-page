@@ -31,8 +31,8 @@
     justify-content: space-around;
     align-items: center;
     margin-left: 1%;
-    height: 30vh;
-    width: 70%;
+    height: 50vh;
+    width: 85%;
     position: relative;
     transition: 0.3s;
     flex-shrink: 0;
@@ -41,7 +41,7 @@
     background-color: #0e101bc7;
   }
   .Navbar:hover{
-    width:20vw;
+    width:40vw;
   }
 }
 
