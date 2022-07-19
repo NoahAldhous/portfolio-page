@@ -1,9 +1,17 @@
 :root{
-  --Navbar-container-width: 100px;
+  --Navbar-container-width: 10vw;
+  --Header-height: 10vh;
  }
 
+ @media only screen and (max-width: 600px) {
+  :root{
+    --Navbar-container-width: 10vw;
+    --Header-height: 3vh;
+  }
+}
+
 .App{
-  background-color: black;
+  background-color: white;
   width: 100%;
   height: 100%;
   display: flex;
@@ -14,7 +22,7 @@
 }
 
 .Main{
- background-color: black;
+ background-color: goldenrod;
  display: flex;
  flex-direction: row;
  width: 100%;
@@ -22,22 +30,27 @@
 }
 
 .Navbar-container{
-  background-color: #0E101B;
+  background-color: green;
   height: 100vh;
   width: var(--Navbar-container-width);
   display: flex;
-  padding-top: 75px;
+  padding-top: var(--Header-height);
   position: fixed;
 }
 
 .Content-container{
-  background-color: #0E101B;
+  background-color: red;
   height:100%;
-  width: 100%;
+  width: 70vw;
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: left;
-
+  margin-left: var(--Navbar-container-width);
 }
 
+.Line-container{
+  background-color: blue;
+  width: 20vw;
+  height:100vh;
+}

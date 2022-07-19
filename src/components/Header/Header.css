@@ -1,7 +1,7 @@
 .Header{
-    background-color: #0E101B;
+    background:transparent;
     width: 100vw;
-    height: 75px;
+    height: var(--Header-height);
     position: fixed;
     transition: top 0.4s;
     display: flex;
@@ -10,13 +10,16 @@
    }
 
 .email{
-    margin-right: 5%;
-    font-size: 26px;
+    margin-right: 2%;
+    font-size: 1.5vw;
     color: #F3D1FF;
     transition: 0.2s;
+    text-decoration: none;
+    border-bottom: 1px solid #F3D1FF;
 }
 
 .email:hover{
     margin-bottom: 0.5%;
     color:#B8336A;
+    border-bottom: 1px solid #B8336A;
 }

@@ -1,14 +1,13 @@
 .Navbutton{
-    width:50px;
-    height:50px;
+    width:70%;
+    height:10%;
     border-radius: 15px;
     transition: 0.3s;
-    margin-left: 12.5px;
     border: 3px solid #B8336A;
     color: #B8336A;
     background-color: #0e101bd0;
     font-family: inherit;
-    font-size: 20px;
+    font-size: 2vw;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -16,6 +15,14 @@
     overflow:hidden;
     white-space:nowrap;
 }
+
+@media only screen and (max-width: 600px) {
+    .Navbutton{
+        border: 1px solid #B8336A;
+    }
+}
+
+
 
 .Navbutton:hover {
     background-color: #B8336A;

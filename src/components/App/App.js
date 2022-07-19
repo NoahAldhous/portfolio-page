@@ -22,6 +22,7 @@ function App() {
           <Landingpage/>
           <Landingpage/>
         </div>
+        <div className="Line-container"></div>
       </div>
     </div>
   );
