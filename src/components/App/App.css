@@ -1,6 +1,7 @@
 :root{
   --Navbar-container-width: 10vw;
   --Header-height: 10vh;
+  --Navbar-left-margin: 18%;
  }
 
 
@@ -28,8 +29,9 @@
   height: 100vh;
   width: var(--Navbar-container-width);
   display: flex;
-  padding-top: var(--Header-height);
+  flex-direction: column;
   position: fixed;
+  justify-content: space-evenly;
 }
 
 .Content-container{
@@ -64,6 +66,17 @@
 
   .Content-container{
     width: 85vw;
+    padding-right: 10%;
+  }
+
+  .Navbar-container{
+    background-color: #0E101B;
+    height: 60vh;
+    width: var(--Navbar-container-width);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content: space-evenly
   }
 
 }

@@ -6,22 +6,24 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
+    margin-right: 20vw;
+    padding-top: 2%;
 }
 
 .Heading{
     margin: 0px;
-    font-size: 8vw;
+    font-size: 7.5vw;
     color: #F3D1FF;
 }
 
 .Heading-Developer{
     margin: 0px;
-    font-size: 8vw;
+    font-size: 7.5vw;
     color: #B8336A;
 }
 
 .Body-Text{
-    margin: 0px;
+    padding-top: 2%;
     font-size: 3vw;
     color: #F3D1FF;
 }

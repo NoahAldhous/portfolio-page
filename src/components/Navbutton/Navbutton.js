@@ -1,9 +1,9 @@
 import './Navbutton.css';
 
-export default function Navbutton({buttonText}){
+export default function Navbutton({buttonText, page, handleClick}){
     switch(buttonText){
         case 'AM':
-            return <button className = {`AM Navbutton`}>
+            return <button className = {`AM Navbutton`} onClick = {function(){handleClick(page)}}>
             </button>
         case 'PF':
             return <button className = {'PF Navbutton'}>
@@ -15,17 +15,17 @@ export default function Navbutton({buttonText}){
             return <button className = {'CI Navbutton'}>
             </button>
         case 'LI':
-            return <button className = {'LI Navbutton'}>
-            </button>
+            return <a className = {'LI Navbutton'} href='https://www.linkedin.com/in/noah-aldhous-4436a3195/' target='_blank' rel='noreferrer'>
+            </a>
         case 'TW':
-            return <button className = {'TW Navbutton'}>
-            </button>
+            return <a className = {'TW Navbutton'} href='https://twitter.com/theOldHaus' target='_blank' rel='noreferrer'>
+            </a>
         case 'GH':
-            return <button className = {'GH Navbutton'}>
-            </button>
+            return <a className = {'GH Navbutton'} href='https://github.com/NoahAldhous' target='_blank' rel='noreferrer'>
+            </a>
         case 'IG':
-            return <button className = {'IG Navbutton'}>
-            </button>
+            return <a className = {'IG Navbutton'} href='https://www.instagram.com/the_oldhaus/' target='_blank' rel='noreferrer'>
+            </a>
     default:
         return null;
     }
