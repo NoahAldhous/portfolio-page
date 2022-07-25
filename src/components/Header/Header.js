@@ -15,6 +15,8 @@ export default function Header(){
   }
 
     return <div className = "Header">
-        <a className ="email" href="mailto:naldhous@hotmail.co.uk" target='_blank' rel='noreferrer'>naldhous@hotmail.co.uk</a>
+        <a className = "email-container" href="mailto:naldhous@hotmail.co.uk" target='_blank' rel='noreferrer'>
+            <p className ="email">naldhous@hotmail.co.uk</p>
+        </a>
     </div>
 }

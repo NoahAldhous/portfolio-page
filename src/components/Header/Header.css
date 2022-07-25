@@ -9,19 +9,25 @@
     justify-content: right;
    }
 
-.email{
+.email-container{
+    text-decoration: none;
     margin-right: 2%;
+}
+
+.email{
     font-size: 1.5vw;
     color: #F3D1FF;
     transition: 0.2s;
-    text-decoration: none;
     border-bottom: 1px solid #F3D1FF;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    text-decoration: none;
 }
 
-.email:hover{
-    margin-bottom: 0.5%;
+.email-container:hover .email{
     color:#B8336A;
     border-bottom: 1px solid #B8336A;
+    margin-bottom: 3%;
 }
 
 

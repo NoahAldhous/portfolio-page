@@ -1,5 +1,5 @@
 import './Navbar.css'
-import Navbutton from '../Navbutton/Navbutton'
+import Navbutton from './Navbutton/Navbutton'
 
 export default function Navbar({handleClick}){
     return  <div className="Navbar">
