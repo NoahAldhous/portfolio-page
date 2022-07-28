@@ -1,0 +1,15 @@
+
+.semiCircle{
+    height: 20vh; 
+    width: 25%;
+    transform: translate(100%);
+    border-radius: 150px 0px 0px 150px;
+    background-color: #b8336ac1;
+    transition: 0.5s;
+    opacity: 50%
+  }
+  
+  .semiCircle:hover{
+    width: 100%;
+    opacity:100%
+  }

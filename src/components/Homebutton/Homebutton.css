@@ -3,13 +3,16 @@
     background: none;
     color: #B8336A;
     border-radius: 15px;
-    top: 0;
+    position:relative;
+    left:15%;
     transition: 0.3s;
-    width: 30%;
+    width: 70%;
+    height:100%;
     border: 2px solid #B8336A;
     background-color: #0e101bc7;
     cursor: pointer;
     padding: 0;
+    margin-bottom: 30%;
 }
 
 .Homebutton:hover{

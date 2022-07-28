@@ -1,12 +1,27 @@
+.Nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: var(--Navbar-left-margin);
+  height: 90vh;
+  max-height: 90%;
+  width: 30%;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background-color: #0e101bc7;
+  z-index: 1;
+}
+
 .Navbar{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     margin-left: var(--Navbar-left-margin);
-    height: 80vh;
-    max-height: 80%;
-    width: 30%;
+    height: 90vh;
+    max-height: 90%;
+    width: 100%;
     position: relative;
     transition: 0.3s;
     flex-shrink: 0;
