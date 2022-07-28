@@ -1,10 +1,10 @@
 import './Aboutmepage.css';
+import {useState} from 'react';
 import humannoah from './images/humannoah.png';
 import digitalnoah from './images/digitalnoah.png';
-import {useState} from 'react';
-import Togglebutton from './Togglebutton/Togglebutton';
 import Listoflikes from './Listoflikes/Listoflikes';
 import { humanLikes, digitalLikes } from './data/likes';
+import Togglebutton from './Togglebutton/Togglebutton';
 
 export default function Aboutmepage(){
 

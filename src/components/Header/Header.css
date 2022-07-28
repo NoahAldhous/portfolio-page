@@ -1,3 +1,5 @@
+
+
 .Header{
     background:transparent;
     width: 100vw;
@@ -7,6 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: right;
+    z-index: 1;
    }
 
 .email-container{

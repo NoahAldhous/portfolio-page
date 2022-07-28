@@ -1,8 +1,9 @@
 .Landingpage{
-    width:100%;
+    width:85%;
     height: 95vh;
     background-color: #0E101B;
     margin-top: var(--Header-height);
+    margin-left: 10%;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -12,13 +13,13 @@
 
 .Heading{
     margin: 0px;
-    font-size: 7.5vw;
+    font-size: 6vw;
     color: #F3D1FF;
 }
 
 .Heading-Developer{
     margin: 0px;
-    font-size: 7.5vw;
+    font-size: 6vw;
     color: #B8336A;
 }
 

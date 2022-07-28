@@ -6,7 +6,7 @@ export default function Navbutton({buttonText, page, handleClick}){
             return <button className = {`AM Navbutton`} onClick = {function(){handleClick(page)}}>
             </button>
         case 'PF':
-            return <button className = {'PF Navbutton'}>
+            return <button className = {'PF Navbutton'} onClick = {function(){handleClick(page)}}>
             </button>
         case 'EX':
             return <button className = {'EX Navbutton'}>

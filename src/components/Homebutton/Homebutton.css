@@ -2,19 +2,14 @@
     margin-left: var(--Navbar-left-margin);
     background: none;
     color: #B8336A;
-    border-radius: 10px;
-    font-family: inherit;
-    font-size: 1.5vw;
-    top: 0;
-    width: 65%;
-    position: relative;
-    transition: 0.3s;
-    flex-shrink: 0;
     border-radius: 15px;
+    top: 0;
+    transition: 0.3s;
+    width: 30%;
     border: 2px solid #B8336A;
     background-color: #0e101bc7;
     cursor: pointer;
-    text-align: center;
+    padding: 0;
 }
 
 .Homebutton:hover{

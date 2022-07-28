@@ -1,5 +1,5 @@
 :root{
-  --Navbar-container-width: 10vw;
+  --Navbar-container-width: 20vw;
   --Header-height: 10vh;
   --Navbar-left-margin: 18%;
  }
@@ -32,12 +32,13 @@
   flex-direction: column;
   position: fixed;
   justify-content: space-evenly;
+  z-index: 1;
 }
 
 .Content-container{
   background-color: #0E101B;
   height:100%;
-  width: 70vw;
+  width: 60vw;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -47,9 +48,40 @@
 
 .Line-container{
   background-color: #0E101B;
+  position: fixed;
+  right: 0;
   width: 20vw;
-  height:100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  overflow: hidden;
 }
+
+.Line-container:hover .semiCircle{
+  transform: translate(0%);
+}
+
+.semiCircle{
+  height: 20vh; 
+  width: 25%;
+  transform: translate(100%);
+  border-radius: 150px 0px 0px 150px;
+  background-color: #b8336ac1;
+  transition: 0.5s;
+  opacity: 50%
+}
+
+.semiCircle:hover{
+  width: 100%;
+  opacity:100%
+}
+
+
+
+
+
+
 
 /* Phone Sizing */
 @media only screen and (max-width: 600px) {
@@ -69,6 +101,7 @@
     padding-right: 10%;
   }
 
+
   .Navbar-container{
     background-color: #0E101B;
     height: 60vh;
@@ -80,3 +113,4 @@
   }
 
 }
+

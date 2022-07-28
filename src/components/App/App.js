@@ -3,35 +3,40 @@ import Header from '../Header/Header';
 import Homebutton from '../Homebutton/Homebutton';
 import Landingpage from '../Landingpage/Landingpage';
 import Navbar from '../Navbar/Navbar';
+import PortfolioPage from '../PortfolioPage/PortfolioPage';
 import './App.css';
 
 
 function App() {
 
-
   function handleClick(page) {
     document.querySelector(page).scrollIntoView()
   }
-    
-
 
   return (
     <div className="App">
       <Header/>
       <div className="Main">
-        <div className="Navbar-container">
+        <section className="Navbar-container">
           <Homebutton handleClick = {handleClick} page = ".Landingpage"/>
           <Navbar handleClick = {handleClick}/>
-        </div>
-        <div className="Content-container">
+        </section>
+        <section className="Content-container">
           <Landingpage Landingpage = "Landingpage"/>
           <Aboutmepage/>
+          <PortfolioPage/>
           <Landingpage/>
           <Landingpage/>
           <Landingpage/>
           <Landingpage/>
-        </div>
-        <div className="Line-container"></div>
+        </section>
+        <section className="Line-container">
+          <div className = "semiCircle"></div>
+          <div className = "semiCircle"></div>
+          <div className = "semiCircle"></div>
+          <div className = "semiCircle"></div>
+          <div className = "semiCircle"></div>
+        </section>
       </div>
     </div>
   );
