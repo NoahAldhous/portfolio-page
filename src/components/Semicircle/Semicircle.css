@@ -6,7 +6,9 @@
     border-radius: 150px 0px 0px 150px;
     background-color: #b8336ac1;
     transition: 0.5s;
-    opacity: 50%
+    opacity: 50%;
+    display: flex;
+    align-items: center;
   }
   
   .semiCircle:hover{

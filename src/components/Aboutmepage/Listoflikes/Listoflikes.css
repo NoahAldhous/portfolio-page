@@ -12,9 +12,12 @@ ul {
   }
 
   .Listoflikes{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 90%;
     color: #F3D1FF;
     font-size: 100%;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }

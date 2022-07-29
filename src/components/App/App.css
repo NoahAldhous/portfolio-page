@@ -13,6 +13,7 @@
   flex-direction: column;
   justify-content: space-between;
   font-family: "Nixie One";
+  
   text-decoration: none;
 }
 
@@ -61,13 +62,6 @@
 .Line-container:hover .semiCircle{
   transform: translate(0%);
 }
-
-
-
-
-
-
-
 
 /* Phone Sizing */
 @media only screen and (max-width: 600px) {

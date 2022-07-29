@@ -1,6 +1,6 @@
 .Aboutmepage{
     width:85%;
-    height: 90vh;
+    height: 80vh;
     background-color: #0E101B;
     margin-top: 45vh;
     margin-left:10%;
@@ -14,57 +14,119 @@
 .Aboutme-container{
     display: flex; 
     justify-content: space-evenly;
-    border: 1px solid orange; 
+    /* border: 1px solid orange;  */
     height: 100%;
-    padding: 5%;
-    padding-left: 0%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .Abouttext-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 60%;
     color:#F3D1FF;
-    border: 1px solid green;
-    height: 100%
+    /* border: 1px solid green; */
+    height: 100%;
+    padding-right: 5%
 }
 
 .Profile-card{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     width: 40%;
-    border: 1px solid orange;
+    border: 2px solid #B8336A;
+    border-radius: 15px;
     height: 100%;
+    padding: 1%;
 }
 
 .Subheading{
     margin: 0px;
     margin-top: 3%;
     font-size: 5vw;
-    color: #F3D1FF;
+    color: #B8336A;
+    font-weight: lighter;
 }
 
 .Abouttext{
-    border: 1px solid red;
-}
-.Skillstext{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    font-size: 3vh;
+    margin: 0;
+    text-align: justify;
 }
 
+.Skills-container{
+    /* border: 3px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 50%
+}
+
+.Skillstext{
+    /* border: 1px solid red; */
+    font-size: 3.5vh;
+    color: #B8336A;
+    text-align: center;
+    margin: 0;
+}
+
+.Tech-list-container{
+    /* border: 1px solid white; */
+    display: flex;
+    height: 100%
+}
+
+.Tech-list{
+    /* border: 1px solid hotpink; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+
+}
+
+.Tech {
+    list-style: none; /* Remove default bullets */
+    text-align: center;
+    font-size: 3vh;
+    transition: 0.3s;
+    margin: 0;
+  }
+
+.Tech:hover{
+    font-size: 3.5vh;
+
+}
+  
+.Tech::before {
+    content: "\>";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #B8336A;; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
 .Profile-picture{
-    max-width: 60%;
-    max-height: 60%;
+    max-width: 75%;
+    max-height: 75%;
     object-fit: scale-down;
     clip-path: circle();
-    margin-bottom: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgb(255, 236, 254);
 }
 
 .noah{
     color:#F3D1FF;
     font-size: 150%;
     margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%
 }
 

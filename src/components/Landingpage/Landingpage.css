@@ -15,12 +15,14 @@
     margin: 0px;
     font-size: 6vw;
     color: #F3D1FF;
+    font-weight: lighter;
 }
 
 .Heading-Developer{
     margin: 0px;
     font-size: 6vw;
     color: #B8336A;
+    font-weight: lighter;
 }
 
 .Body-Text{
@@ -33,8 +35,7 @@
     color: #F3D1FF;
     text-decoration: none;
     transition:0.2s;
-    border-bottom: 1px solid #F3D1FF;
-    
+    border-bottom: 1px solid #F3D1FF; 
 }
 
 .SoC-Link:hover{   
