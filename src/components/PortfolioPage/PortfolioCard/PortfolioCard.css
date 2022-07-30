@@ -1,9 +1,14 @@
 .Portfolio-card{
     position: relative;
-    width: 30%;
+    width: 100%;
     display: flex;
     border-radius: 30px;
-    height:calc(100% -16px)
+}
+
+.Portfolio-card:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
 }
 
 .card-overlay{
@@ -59,4 +64,13 @@
     border: 2px solid #B8336A;
     z-index: 0;
     opacity: 80%;
+}
+
+.Portfolio-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 3%;
+    grid-row-gap: 3%;
+    /* border: 1px solid blue; */
 }
