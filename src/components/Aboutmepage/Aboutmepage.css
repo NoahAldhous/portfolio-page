@@ -1,7 +1,7 @@
 .Aboutmepage{
     width:85%;
     height: 80vh;
-    background-color: #0E101B;
+    background-color: #0b0d16;
     margin-top: 45vh;
     margin-left:10%;
     display: flex;
@@ -119,7 +119,7 @@
     clip-path: circle();
     margin-top: 5%;
     margin-bottom: 5%;
-    background-color: rgb(255, 236, 254);
+    background-color: #B8336A;
 }
 
 .noah{

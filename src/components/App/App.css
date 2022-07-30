@@ -18,7 +18,7 @@
 }
 
 .Main{
- background-color: #0E101B;
+ background-color: #0b0d16;
  display: flex;
  flex-direction: row;
  width: 100%;
@@ -26,7 +26,7 @@
 }
 
 .Navbar-container{
-  background-color: #0E101B;
+  background-color: #0b0d16;
   height: 100vh;
   width: var(--Navbar-container-width);
   display: flex;
@@ -37,7 +37,7 @@
 }
 
 .Content-container{
-  background-color: #0E101B;
+  background-color: #0b0d16;
   height:100%;
   width: 60vw;
   display: flex;
@@ -48,7 +48,7 @@
 }
 
 .Line-container{
-  background-color: #0E101B;
+  background-color: #0b0d16;
   position: fixed;
   right: 0;
   width: 20vw;
@@ -83,7 +83,7 @@
 
 
   .Navbar-container{
-    background-color: #0E101B;
+    background-color: #0b0d16;
     height: 60vh;
     width: var(--Navbar-container-width);
     display: flex;
