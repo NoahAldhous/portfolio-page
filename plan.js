@@ -9,12 +9,24 @@ App- a div that containts all other elements.
             Navbar- a container of buttons that expands on hover.
                 Navbar buttons- button components that take the user to different parts of the website.
         Content-Container- a div that hold the separate content 'pages'. Scrollable.
-            Content-page
-                Home-page
-                About-me-page
-                Portfolio-page 
+            Content-page ✅
+                Landing-page ✅
+                About-me-page ✅
+                Portfolio-page ✅
                 Experience-page
                 Contact-me-page
 
+    !TO DO!
+    Portfolio Images + Links set up. (polish the portfolio apps)
+        -typing test (css, implement final features)
+        -aws to do list (polish, css, deploy)
+        -reCapp app (fork + deploy)
+        -final project (could be added now tbh)
+        -some game (memory game?)
+        -weather app (css, deploy)
 
+    Fix the Experience page to render text correctly (not including the html elements)
+    Contact Info Page 
+    Figure out what to do with the side blobs
+    
  */

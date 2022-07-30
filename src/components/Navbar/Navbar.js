@@ -11,7 +11,7 @@ export default function Navbar({handleClick}){
       <Navbutton buttonText = "EX" handleClick={handleClick} page= ".ExperiencePage"/>
       <Navbutton buttonText = "CI"/>
       <Navbutton buttonText = "LI"/>
-      <Navbutton buttonText = "TW" link = "https://twitter.com/theOldHaus"/>
+      <Navbutton buttonText = "TW"/>
       <Navbutton buttonText = "GH"/>
       <Navbutton buttonText = "IG"/>
     </div>

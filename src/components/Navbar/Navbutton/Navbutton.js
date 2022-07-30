@@ -4,7 +4,6 @@ export default function Navbutton({buttonText, page, handleClick}){
     switch(buttonText){
         case 'AM':
             return <button className = {`AM Navbutton`} onClick = {function(){handleClick(page)}}>
-
             </button>
         case 'PF':
             return <button className = {'PF Navbutton'} onClick = {function(){handleClick(page)}}>

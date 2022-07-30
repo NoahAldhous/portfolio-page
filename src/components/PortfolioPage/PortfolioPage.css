@@ -19,22 +19,13 @@
     font-weight: lighter;
 }
 
-.Portfolio-container{
-    display: flex; 
-    flex-direction: column;
-    /* border: 1px solid orange;  */
-    align-items: center;
-    justify-content: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    height: 100%;
+.Portfolio-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 3%;
+    grid-row-gap: 3%;
+    /* border: 1px solid blue; */
 }
 
-.Portfolio-card-container{
-    width:100%;
-    /* border: 1px solid blue; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 

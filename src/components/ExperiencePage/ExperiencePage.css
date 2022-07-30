@@ -31,7 +31,7 @@
 
 .Experience-button-container{
     /* border: 1px solid blue; */
-    width: 30%;
+    width: 25%;
     height: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -50,7 +50,7 @@
     transition: 0.3s;
     border-right: none;
     font-family: inherit;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 
 .Experience-button:hover{
@@ -58,11 +58,38 @@
     color:#0b0d16;
 }
 
+.Active-button{
+    background-color:#B8336A;
+    color:#0b0d16;
+}
+
 .Experience-text-container{
     border: 2px dashed #B8336A;
-    height: 100%;
-    width: 70%;
+    width: 65%;
     padding-top: 1%;
     padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
     border-radius: 2%;
+    transition: 0.3s;
+    height: 90%;
+}
+
+.Experience-text-header{
+    color:#B8336A;
+    /* border: 1px solid blue; */
+    font-size: 1.8vw;
+}
+
+.Experience-date{
+    color: #F3D1FF;
+    /* border: 1px solid green; */
+    font-size: 1.5vw;
+}
+
+.Experience-text{
+    color: #F3D1FF;
+    /* border: 1px solid red; */
+    font-size: 100%;
+    font-weight:bold;
 }
