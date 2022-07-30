@@ -1,4 +1,5 @@
 import Aboutmepage from '../Aboutmepage/Aboutmepage';
+import ExperiencePage from '../ExperiencePage/ExperiencePage';
 import Header from '../Header/Header';
 import Landingpage from '../Landingpage/Landingpage';
 import Navbar from '../Navbar/Navbar';
@@ -24,6 +25,7 @@ function App() {
           <Landingpage Landingpage = "Landingpage"/>
           <Aboutmepage/>
           <PortfolioPage/>
+          <ExperiencePage/>
           <Landingpage/>
           <Landingpage/>
           <Landingpage/>

@@ -1,10 +1,10 @@
 .Portfolio-card{
     position: relative;
-    height:90%;
     width: 30%;
     /* border: 2px solid red; */
     display: flex;
     border-radius: 30px;
+    height:calc(100vh -16px)
 }
 
 .card-overlay{

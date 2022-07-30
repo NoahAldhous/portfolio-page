@@ -1,0 +1,68 @@
+.ExperiencePage{
+    width: 85%;
+    height: 90vh;
+    background-color: #0b0d16;
+    margin-top: 45vh;
+    margin-left:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 2%;
+    /* border: 1px solid orange; */
+}
+
+.Subheading{
+    margin: 0px;
+    margin-top: 3%;
+    font-size: 5vw;
+    color: #B8336A;
+    font-weight: lighter;
+}
+
+.Experience-container{
+    display: flex; 
+    /* border: 1px solid green;  */
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 60%;
+}
+
+.Experience-button-container{
+    /* border: 1px solid blue; */
+    width: 30%;
+    height: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Experience-button{
+    cursor: pointer;
+    height: 10%;
+    background-color: #0b0d16;
+    border: 2px solid #B8336A;
+    border-radius: 15px 0 0 15px;
+    color:#B8336A;
+    transition: 0.3s;
+    border-right: none;
+    font-family: inherit;
+    font-size: 1.5vw;
+}
+
+.Experience-button:hover{
+    background-color: #B8336A;
+    color:#0b0d16;
+}
+
+.Experience-text-container{
+    border: 2px dashed #B8336A;
+    height: 100%;
+    width: 70%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 2%;
+}

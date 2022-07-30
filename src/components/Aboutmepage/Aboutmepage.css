@@ -34,13 +34,13 @@
 .Profile-card{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
     width: 40%;
     border: 2px solid #B8336A;
     border-radius: 15px;
-    height: 100%;
     padding: 1%;
+    height: 100%
 }
 
 .Subheading{
@@ -113,8 +113,8 @@
   }
 
 .Profile-picture{
-    max-width: 75%;
-    max-height: 75%;
+    max-width: 70%;
+    max-height: 70%;
     object-fit: scale-down;
     clip-path: circle();
     margin-top: 5%;

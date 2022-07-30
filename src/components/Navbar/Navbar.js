@@ -8,7 +8,7 @@ export default function Navbar({handleClick}){
     <div className="Navbar">
       <Navbutton buttonText = "AM" handleClick={handleClick} page= ".Aboutmepage"/>
       <Navbutton buttonText = "PF" handleClick={handleClick} page= ".PortfolioPage"/>
-      <Navbutton buttonText = "EX"/>
+      <Navbutton buttonText = "EX" handleClick={handleClick} page= ".ExperiencePage"/>
       <Navbutton buttonText = "CI"/>
       <Navbutton buttonText = "LI"/>
       <Navbutton buttonText = "TW" link = "https://twitter.com/theOldHaus"/>

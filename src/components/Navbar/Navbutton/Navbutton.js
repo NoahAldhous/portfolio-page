@@ -4,15 +4,16 @@ export default function Navbutton({buttonText, page, handleClick}){
     switch(buttonText){
         case 'AM':
             return <button className = {`AM Navbutton`} onClick = {function(){handleClick(page)}}>
+
             </button>
         case 'PF':
             return <button className = {'PF Navbutton'} onClick = {function(){handleClick(page)}}>
             </button>
         case 'EX':
-            return <button className = {'EX Navbutton'}>
+            return <button className = {'EX Navbutton'}  onClick = {function(){handleClick(page)}}>
             </button>
         case 'CI':
-            return <button className = {'CI Navbutton'}>
+            return <button className = {'CI Navbutton'}  onClick = {function(){handleClick(page)}}>
             </button>
         case 'LI':
             return <a className = {'LI Navbutton'} href='https://www.linkedin.com/in/noah-aldhous-4436a3195/' target='_blank' rel='noreferrer'>
