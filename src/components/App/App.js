@@ -32,11 +32,11 @@ function App() {
           <Landingpage/>
         </section>
         <section className="Line-container">
-          <Semicircle/>
-          <Semicircle/>
-          <Semicircle/>
-          <Semicircle/>
-          <Semicircle/>
+          <Semicircle text = {"EMAIL"} />
+          <Semicircle text = {"LINKEDIN"}/>
+          <Semicircle text = {"GITHUB"}/>
+          <Semicircle text = {"TWITTER"}/>
+          <Semicircle text = {"INSTAGRAM"}/>
         </section>
       </div>
     </div>

@@ -1,17 +1,32 @@
 
 .semiCircle{
     height: 20vh; 
-    width: 25%;
-    transform: translate(100%);
+    width: 400%;
+    transform: translate(30%);
     border-radius: 150px 0px 0px 150px;
     background-color: #b8336ac1;
     transition: 0.5s;
     opacity: 50%;
     display: flex;
     align-items: center;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    font-family: inherit;
+    font-size: 1vw;
+    color:#0b0d16;
+    font-weight: bold;
   }
   
   .semiCircle:hover{
-    width: 100%;
-    opacity:100%
+    transform: translate(-35%);
+    opacity:100%;
+    font-size: 2vw;
+  }
+
+  .semiCircle-container{
+    border: none;
+    width: 25%;
+    transform: translate(25%);
+    transition: 0.5s;
   }

@@ -26,7 +26,8 @@
     justify-content: flex-start;
     padding-top: 1%;
     padding-bottom: 1%;
-    height: 60%;
+    height: 27.5vw;
+    margin-top: 3%;
 }
 
 .Experience-button-container{
@@ -72,7 +73,7 @@
     padding-right: 3%;
     border-radius: 2%;
     transition: 0.3s;
-    height: 90%;
+    height: 100%;
 }
 
 .Experience-text-header{
@@ -90,6 +91,6 @@
 .Experience-text{
     color: #F3D1FF;
     /* border: 1px solid red; */
-    font-size: 100%;
+    font-size: 1.4vw;
     font-weight:bold;
 }

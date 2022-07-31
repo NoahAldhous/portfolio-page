@@ -59,8 +59,8 @@
   overflow: hidden;
 }
 
-.Line-container:hover .semiCircle{
-  transform: translate(0%);
+.Line-container:hover .semiCircle-container{
+  transform: translate(-130%);
 }
 
 /* Phone Sizing */

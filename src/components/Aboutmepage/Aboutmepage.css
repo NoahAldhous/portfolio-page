@@ -16,7 +16,7 @@
     justify-content: space-evenly;
     /* border: 1px solid orange;  */
     height: 100%;
-    padding-top: 5%;
+    padding-top: 2%;
     padding-bottom: 5%;
 }
 
@@ -49,6 +49,8 @@
     font-size: 5vw;
     color: #B8336A;
     font-weight: lighter;
+    /* border: 1px solid orange; */
+
 }
 
 .Abouttext{
