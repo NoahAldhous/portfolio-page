@@ -1,9 +1,8 @@
-
-.semiCircle{
+.leftsemiCircle{
     height: 20vh; 
     width: 400%;
-    transform: translate(30%);
-    border-radius: 150px 0px 0px 150px;
+    transform: translate(-35%);
+    border-radius: 0px 150px 150px 0px;
     background-color: #b8336ac1;
     transition: 0.5s;
     opacity: 50%;
@@ -16,18 +15,17 @@
     font-size: 1vw;
     color:#0b0d16;
     font-weight: bold;
-    text-decoration: none;
   }
   
-  .semiCircle:hover{
-    transform: translate(-40%);
+  .leftsemiCircle:hover{
+    transform: translate(40%);
     opacity:100%;
     font-size: 2vw;
   }
 
-  .semiCircle-container{
+  .leftsemiCircle-container{
     border: none;
     width: 25%;
-    transform: translate(25%);
+    transform: translate(-575%);
     transition: 0.5s;
   }
