@@ -19,6 +19,8 @@ function App() {
       <Header/>
       <div className="Main">
         <section className="Navbar-container">
+        <div className="Left-arrow">{'<'}NAVIGATE</div>
+        
           <LeftSemiCircle text = {"HOME"} handleClick={handleClick} page = ".Landingpage"/>
           <LeftSemiCircle text = {"ABOUT ME"} handleClick={handleClick} page= ".Aboutmepage"/>
           <LeftSemiCircle text = {"PORTFOLIO"} handleClick={handleClick} page= ".PortfolioPage"/>
@@ -31,11 +33,9 @@ function App() {
           <PortfolioPage/>
           <ExperiencePage/>
           <Landingpage/>
-          <Landingpage/>
-          <Landingpage/>
-          <Landingpage/>
         </section>
         <section className="Line-container">
+        <div className="Right-arrow">CONNECT{'>'}</div>
           <Semicircle text = {"EMAIL"} url={"mailto:naldhous@hotmail.co.uk"}/>
           <Semicircle text = {"LINKEDIN"} url={'https://www.linkedin.com/in/noah-aldhous-4436a3195/'}/>
           <Semicircle text = {"GITHUB"} url={'https://github.com/NoahAldhous'}/>

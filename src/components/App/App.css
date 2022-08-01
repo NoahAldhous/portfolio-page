@@ -99,3 +99,52 @@
 
 }
 
+.Left-arrow{
+  position: absolute;
+  left: 10%;
+  color:#b8336ac1;
+  top: 47.5%;
+  transition: 0.5s;
+  font-size: 2vw;
+  margin: none;
+  animation: pulse 2.5s infinite, fadein 0.5s 1;
+}
+
+.Navbar-container:hover .Left-arrow{
+  opacity: 0%;
+  animation: fadeout 0.4s 1
+}
+
+.Right-arrow{
+  position: absolute;
+  right: 10%;
+  color: #b8336ac1;
+  top: 47.5%;
+  transition: 0.5s;
+  font-size: 2vw;
+  margin: none;
+  text-align: right;
+  animation: pulse 3s infinite, fadein 0.4s 1;
+
+}
+
+@keyframes pulse{
+  0% { opacity: 75%; }
+  50% { opacity: 100%; }
+  100% { opacity: 75%; }
+}
+
+@keyframes fadeout{
+  0% {opacity: 75%;}
+  100% {opacity: 0%;}
+}
+
+@keyframes fadein{
+  0% {opacity: 0%;}
+  100% {opacity: 75%;}
+}
+
+.Line-container:hover .Right-arrow{
+  opacity: 0%;
+  animation: fadeout 0.5s 1
+}
