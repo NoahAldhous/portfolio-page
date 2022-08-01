@@ -27,13 +27,18 @@
 
 .Navbar-container{
   background-color: #0b0d16;
+  position: fixed;
+  left: 0;
+  width: 20vw;
   height: 100vh;
-  width: var(--Navbar-container-width);
   display: flex;
   flex-direction: column;
-  position: fixed;
-  justify-content: space-evenly;
-  z-index: 1;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.Navbar-container:hover .leftsemiCircle-container{
+  transform: translate(-470%)
 }
 
 .Content-container{
