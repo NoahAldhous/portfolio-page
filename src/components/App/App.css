@@ -108,6 +108,7 @@
   font-size: 2vw;
   margin: none;
   animation: pulse 2.5s infinite, fadein 0.5s 1;
+  font-weight: bold;
 }
 
 .Navbar-container:hover .Left-arrow{
@@ -125,7 +126,7 @@
   margin: none;
   text-align: right;
   animation: pulse 3s infinite, fadein 0.4s 1;
-
+  font-weight: bold;
 }
 
 @keyframes pulse{
@@ -146,5 +147,6 @@
 
 .Line-container:hover .Right-arrow{
   opacity: 0%;
-  animation: fadeout 0.5s 1
+  animation: fadeout 0.5s 1;
+
 }

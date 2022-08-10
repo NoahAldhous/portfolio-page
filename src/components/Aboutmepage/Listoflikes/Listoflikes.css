@@ -16,6 +16,7 @@ ul {
     width: 90%;
     color: #F3D1FF;
     font-size: 1.2vw;
+    font-weight: bold;
     margin: 0;
     display: flex;
     flex-direction: column;
