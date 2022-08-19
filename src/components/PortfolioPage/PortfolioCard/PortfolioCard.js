@@ -1,18 +1,18 @@
 import "./PortfolioCard.css"
 import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
-import humannoah from '../../Aboutmepage/images/humannoah.png';
 
-export default function PortfolioCard(){
+
+export default function PortfolioCard({githubLink , deployedLink, text, image }){
     return <div className="Portfolio-card">
                 <div className="card-overlay">
-                    <button className="Icon-button">
+                    <a className="Icon-button" href = {githubLink} target='_blank' rel='noreferrer'>
                         <AiFillGithub className="Github-icon" size={50}/>
-                    </button>
-                    Sample Text
-                    <button className="Icon-button">
+                    </a>
+                    {text}
+                    <a className="Icon-button" href = {deployedLink} target='_blank' rel='noreferrer'>
                         <AiOutlineLink className="Link-icon" size={50}/>
-                    </button>
+                    </a>
                 </div>
-                <img className= "Portfolio-image" src= {humannoah} alt= "noah"/>
+                <img className= "Portfolio-image" src= {image} alt= "noah"/>
             </div>
 }

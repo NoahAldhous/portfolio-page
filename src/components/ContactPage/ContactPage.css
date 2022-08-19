@@ -1,4 +1,4 @@
-.PortfolioPage{
+.ContactPage{
     width: 85%;
     height: 100vh;
     background-color: #0b0d16;
@@ -19,14 +19,23 @@
     font-weight: lighter;
 }
 
-.Portfolio-grid{
+.ContactText-container{
     margin-top: 2%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 3%;
-    grid-row-gap: 3%;
-    /* border: 1px solid blue; */
+    font-size: 4.5vw;
+    color: #B8336A;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
 }
 
+.ContactText{
+    text-decoration: none;
+    color:#B8336A;
+    transition: 0.3s;
+}
 
+.ContactText:hover{
+    color: #F3D1FF;
+    font-weight: normal;
+    padding-left: 1%;
+}

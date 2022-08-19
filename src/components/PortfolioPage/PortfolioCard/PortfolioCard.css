@@ -27,6 +27,8 @@
     align-items: center;
     font-size: 100%;
     z-index: 1;
+    text-align: center;
+    font-weight: bold;
 }
 
 .card-overlay:hover{
@@ -65,5 +67,6 @@
     border: 2px solid #B8336A;
     z-index: 0;
     opacity: 80%;
+    background-color: #B8336A;
 }
 

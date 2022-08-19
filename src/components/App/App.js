@@ -1,11 +1,12 @@
 import Aboutmepage from '../Aboutmepage/Aboutmepage';
 import ExperiencePage from '../ExperiencePage/ExperiencePage';
-import Header from '../Header/Header';
+// import Header from '../Header/Header';
 import Landingpage from '../Landingpage/Landingpage';
 import PortfolioPage from '../PortfolioPage/PortfolioPage';
 import Semicircle from '../Semicircle/Semicircle';
 import LeftSemiCircle from '../Semicircle/LeftSemiCircle';
 import './App.css';
+import ContactPage from '../ContactPage/ContactPage';
 
 
 function App() {
@@ -16,11 +17,10 @@ function App() {
 
   return (
     <div className="App">
-      <Header/>
+      {/* <Header/> */}
       <div className="Main">
         <section className="Navbar-container">
         <div className="Left-arrow">{'<'}NAVIGATE</div>
-        
           <LeftSemiCircle text = {"HOME"} handleClick={handleClick} page = ".Landingpage"/>
           <LeftSemiCircle text = {"ABOUT ME"} handleClick={handleClick} page= ".Aboutmepage"/>
           <LeftSemiCircle text = {"PORTFOLIO"} handleClick={handleClick} page= ".PortfolioPage"/>
@@ -32,7 +32,7 @@ function App() {
           <Aboutmepage/>
           <PortfolioPage/>
           <ExperiencePage/>
-          <Landingpage/>
+          <ContactPage/>
         </section>
         <section className="Line-container">
         <div className="Right-arrow">CONNECT{'>'}</div>

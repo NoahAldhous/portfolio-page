@@ -1,21 +1,22 @@
 .Aboutmepage{
     width:85%;
-    height: 80vh;
+    height: 100vh;
     background-color: #0b0d16;
     margin-top: 45vh;
     margin-left:10%;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     margin-right: 20vw;
     padding-top: 2%;
+    /* border: 1px solid blue; */
 }
 
 .Aboutme-container{
     display: flex; 
     justify-content: space-evenly;
     /* border: 1px solid orange;  */
-    height: 100%;
+    height: 70%;
     padding-top: 2%;
     padding-bottom: 5%;
 }
@@ -27,7 +28,7 @@
     width: 60%;
     color:#F3D1FF;
     /* border: 1px solid green; */
-    height: 100%;
+    height: 90%;
     padding-right: 5%;
     font-weight: bold;
 }
@@ -40,8 +41,8 @@
     width: 40%;
     border: 2px solid #B8336A;
     border-radius: 15px;
-    padding: 1%;
-    height: 100%
+    padding: 2%;
+    height: 90%
 }
 
 .Subheading{
@@ -76,6 +77,7 @@
     color: #B8336A;
     text-align: center;
     margin: 0;
+    margin-top: 5%;
 }
 
 .Tech-list-container{

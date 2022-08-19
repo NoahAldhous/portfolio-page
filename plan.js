@@ -13,7 +13,7 @@ App- a div that containts all other elements.
                 Landing-page ✅
                 About-me-page ✅
                 Portfolio-page ✅
-                Experience-page
+                Experience-page ✅
                 Contact-me-page
 
     !TO DO!

@@ -4,7 +4,7 @@ export default function ExperienceText({activeButton}){
     switch(activeButton){
         case ".SoC-Button":
             return  <section className="Experience-text-container">
-            <h3 className="Experience-text-header">STUDENT AT THE <a className = "SoC-Link" href = "https://www.schoolofcode.co.uk/"> SCHOOL OF CODE </a></h3>
+            <h3 className="Experience-text-header">STUDENT AT THE <a className = "SoC-Link" href = "https://www.schoolofcode.co.uk/" target = "_blank" rel="noreferrer"> SCHOOL OF CODE </a></h3>
             <h3 className="Experience-date">April - August 2022</h3>
             <p className="Experience-text">
                 This 16 week bootcamp taught me the fundamentals of programming 
