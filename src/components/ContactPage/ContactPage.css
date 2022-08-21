@@ -39,3 +39,50 @@
     font-weight: normal;
     padding-left: 1%;
 }
+
+
+
+/* Phone Sizing */
+@media only screen and (max-width: 600px) {
+    .ContactPage{
+        width: 85%;
+        height: 100vh;
+        background-color: #0b0d16;
+        margin-top: 45vh;
+        margin-left:10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 2%;
+        /* border: 1px solid white; */
+    }
+    
+    .Subheading{
+        margin: 0px;
+        margin-top: 3%;
+        font-size: 10vw;
+        color: #B8336A;
+        font-weight: lighter;
+    }
+    
+    .ContactText-container{
+        margin-top: 2%;
+        font-size: 9vw;
+        color: #B8336A;
+        font-weight: lighter;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ContactText{
+        text-decoration: none;
+        color:#B8336A;
+        transition: 0.3s;
+    }
+    
+    .ContactText:hover{
+        color: #F3D1FF;
+        font-weight: normal;
+        padding-left: 1%;
+    }
+}

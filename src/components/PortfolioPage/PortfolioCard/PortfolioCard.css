@@ -70,3 +70,77 @@
     background-color: #B8336A;
 }
 
+/* Phone Sizing */
+@media only screen and (max-width: 600px) {
+    .Portfolio-card{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+    }
+    
+    .Portfolio-card:before{
+        content: "";
+        display: block;
+        padding-top: 100%;
+    }
+    
+    .card-overlay{
+        position: absolute;
+        border: 2px solid #B8336A;
+        width: 99%;
+        height:99%;
+        background-color: #B8336A;
+        opacity: 0%;
+        transition: 0.4s;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 3vw;
+        z-index: 1;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .card-overlay:hover{
+        opacity: 85%;
+    }
+    
+    .Icon-button{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        border-radius: 15px;
+        transition: 0.2s;
+        border: 1px solid #0b0d16;
+        background-color: #B8336A;
+        color:#0b0d16;
+        cursor: pointer;
+    }
+    
+    .Icon-button:hover{
+        background-color:#0b0d16;
+        color: #B8336A;
+    }
+    
+    .Github-icon:hover{
+        cursor: pointer;
+    }
+        
+    .Link-icon:hover{
+        cursor: pointer;   
+    }
+    
+    .Portfolio-image{
+        position: relative;
+        width:100%;
+        border-radius: 30px;
+        /* border: 1px solid yellow; */
+        border: 2px solid #B8336A;
+        z-index: 0;
+        opacity: 80%;
+        background-color: #B8336A;
+    }
+}

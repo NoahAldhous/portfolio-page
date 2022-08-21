@@ -30,3 +30,36 @@
 }
 
 
+/* Phone Sizing */
+@media only screen and (max-width: 600px) {
+    .PortfolioPage{
+        width: 85%;
+        height: 100vh;
+        background-color: #0b0d16;
+        margin-top: 45vh;
+        margin-left:10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 2%;
+        /* border: 1px solid white; */
+    }
+    
+    .Subheading{
+        margin: 0px;
+        margin-top: 3%;
+        font-size: 5vw;
+        color: #B8336A;
+        font-weight: lighter;
+    }
+    
+    .Portfolio-grid{
+        margin-top: 2%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 3%;
+        grid-row-gap: 3%;
+        /* border: 1px solid blue; */
+    }
+}
