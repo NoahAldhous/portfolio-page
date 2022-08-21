@@ -13,24 +13,25 @@
         position: fixed;
         transition: top 0.4s;
         display: flex;
+        flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         z-index: 3;
         border-bottom: 1px solid #B8336A;
     }
 
     .Header-Button-Container{
         /* border: 1px solid green; */
-        width: 95%;
+        width: 30%;
         height: 95%;
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        flex-direction: column;
+        justify-content: space-around;
         align-items: center;
     }
 
     .Header-Button{
-        width: 15%;
+        width: 80%;
         text-align: center;
         align-items: center;
         border: none;
@@ -39,7 +40,7 @@
         color: #B8336A;
         font-family: inherit;
         font-weight: bold;
-        font-size: 2vw;
+        font-size: 3vw;
         padding: 0%;
         text-decoration: none;
         transition: 0.3s;

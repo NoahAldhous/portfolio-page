@@ -18,9 +18,14 @@ export default function Header({ handleClick }){
         <section className = "Header-Button-Container">
             <button className = "Header-Button" onClick = {function(){handleClick(".Landingpage")}}>HOME </button>
             <button className = "Header-Button" onClick = {function(){handleClick(".Aboutmepage")}}>ABOUT</button>
+        </section>
+        <section className = "Header-Button-Container">
             <button className = "Header-Button" onClick = {function(){handleClick(".PortfolioPage")}}>PORTFOLIO</button>
             <button className = "Header-Button" onClick = {function(){handleClick(".ExperiencePage")}}>EXPERIENCE</button>
+        </section>
+        <section className = "Header-Button-Container">
             <button className = "Header-Button" onClick = {function(){handleClick(".ContactPage")}}>CONTACT</button>
+            <button className = "Header-Button" onClick = {function(){handleClick(".ContactPage")}}>CV</button>
         </section>
     </div>
 }
