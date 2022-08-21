@@ -1,6 +1,5 @@
 import Aboutmepage from '../Aboutmepage/Aboutmepage';
 import ExperiencePage from '../ExperiencePage/ExperiencePage';
-// import Header from '../Header/Header';
 import Landingpage from '../Landingpage/Landingpage';
 import PortfolioPage from '../PortfolioPage/PortfolioPage';
 import Semicircle from '../Semicircle/Semicircle';
@@ -19,7 +18,7 @@ function App() {
     <div className="App">
       {/* <Header/> */}
       <div className="Main">
-        <section className="Navbar-container">
+        <section className="Navigate-Menu">
         <div className="Left-arrow">{'<'}NAVIGATE</div>
           <LeftSemiCircle text = {"HOME"} handleClick={handleClick} page = ".Landingpage"/>
           <LeftSemiCircle text = {"ABOUT ME"} handleClick={handleClick} page= ".Aboutmepage"/>

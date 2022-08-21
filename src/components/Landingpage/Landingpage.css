@@ -20,7 +20,7 @@
 
 .Heading-Developer{
     margin: 0px;
-    font-size: 6vw;
+    font-size: 4vw;
     color: #B8336A;
     font-weight: lighter;
 }
@@ -28,19 +28,74 @@
 .Body-Text{
     padding-top: 2%;
     font-size: 3vw;
-    color: #F3D1FF;
+    color: #B8336A;
 }
 
 .SoC-Link{
-    color: #F3D1FF;
+    color: #B8336A;
     text-decoration: none;
     transition:0.2s;
-    border-bottom: 1px solid #F3D1FF; 
+    border-bottom: 1px solid #B8336A;
 }
 
 .SoC-Link:hover{   
     padding-bottom: 0.3%;
-    color:#B8336A;
-    border-bottom: 1px solid #B8336A;
+    color:#F3D1FF;
+    border-bottom: 1px solid #F3D1FF;
 }
 
+
+
+/* Phone Sizing */
+@media only screen and (max-width: 600px) {
+
+    .Landingpage{
+        width:100%;
+        height: 100vh;
+        background-color: #0b0d16;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0%;
+        padding-top: 2%;
+        border: 1px solid blue;
+    }
+    
+    .Heading{
+        margin: 0px;
+        font-size: 10vw;
+        color: #F3D1FF;
+        font-weight: lighter;
+        text-align: center;
+    }
+    
+    .Heading-Developer{
+        margin: 0px;
+        font-size: 7vw;
+        color: #B8336A;
+        font-weight: lighter;
+        text-align: center;
+    }
+    
+    .Body-Text{
+        padding-top: 2%;
+        font-size: 6vw;
+        color: #B8336A;
+        text-align: center;
+    }
+    
+    .SoC-Link{
+        color: #B8336A;
+        text-decoration: none;
+        transition:0.2s;
+        border-bottom: 1px solid #B8336A;
+    }
+    
+    .SoC-Link:hover{   
+        padding-bottom: 0.3%;
+        color:#F3D1FF;
+        border-bottom: 1px solid #F3D1FF;
+    }
+
+}

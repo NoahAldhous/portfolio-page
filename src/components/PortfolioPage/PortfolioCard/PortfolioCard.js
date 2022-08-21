@@ -2,12 +2,14 @@ import "./PortfolioCard.css"
 import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
 
 
-export default function PortfolioCard({githubLink , deployedLink, text, image }){
+export default function PortfolioCard({githubLink , deployedLink, title, text, image }){
     return <div className="Portfolio-card">
                 <div className="card-overlay">
                     <a className="Icon-button" href = {githubLink} target='_blank' rel='noreferrer'>
                         <AiFillGithub className="Github-icon" size={50}/>
                     </a>
+                    {title}     
+                    <br/>
                     {text}
                     <a className="Icon-button" href = {deployedLink} target='_blank' rel='noreferrer'>
                         <AiOutlineLink className="Link-icon" size={50}/>
