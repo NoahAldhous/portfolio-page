@@ -126,7 +126,7 @@
 @media only screen and (max-width: 600px) {
   :root{
     --Navbar-container-width: 15vw;
-    --Header-height: 3vh;
+    --Header-height: 10vh;
   }
 
   .Main{

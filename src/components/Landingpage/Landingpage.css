@@ -86,10 +86,10 @@
     }
     
     .SoC-Link{
-        color: #B8336A;
+        color: #F3D1FF;
         text-decoration: none;
         transition:0.2s;
-        border-bottom: 1px solid #B8336A;
+        border-bottom: 1px solid #F3D1FF;
     }
     
     .SoC-Link:hover{   

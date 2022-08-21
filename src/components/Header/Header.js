@@ -1,23 +1,26 @@
 import './Header.css'
 
 
-export default function Header(){
+export default function Header({ handleClick }){
 
-
-      var prevScrollpos = window.pageYOffset;
-  window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-  document.querySelector(".Header").style.top = "0";
-  } else {
-  document.querySelector(".Header").style.top = "-15vh";
-  }
-  prevScrollpos = currentScrollPos;
-  }
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos){
+            document.querySelector(".Header").style.top = "0";
+        } else {
+            document.querySelector(".Header").style.top = "-15vh";
+        }
+        prevScrollpos = currentScrollPos;
+    }
 
     return <div className = "Header">
-        <a className = "email-container" href="mailto:naldhous@hotmail.co.uk" target='_blank' rel='noreferrer'>
-            <p className ="email">naldhous@hotmail.co.uk</p>
-        </a>
+        <section className = "Header-Button-Container">
+            <button className = "Header-Button" onClick = {function(){handleClick(".Landingpage")}}>HOME </button>
+            <button className = "Header-Button" onClick = {function(){handleClick(".Aboutmepage")}}>ABOUT</button>
+            <button className = "Header-Button" onClick = {function(){handleClick(".PortfolioPage")}}>PORTFOLIO</button>
+            <button className = "Header-Button" onClick = {function(){handleClick(".ExperiencePage")}}>EXPERIENCE</button>
+            <button className = "Header-Button" onClick = {function(){handleClick(".ContactPage")}}>CONTACT</button>
+        </section>
     </div>
 }

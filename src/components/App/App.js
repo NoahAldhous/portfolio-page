@@ -6,6 +6,7 @@ import Semicircle from '../Semicircle/Semicircle';
 import LeftSemiCircle from '../Semicircle/LeftSemiCircle';
 import './App.css';
 import ContactPage from '../ContactPage/ContactPage';
+import Header from '../Header/Header';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
       {/* <Header/> */}
       <div className="Main">
+      <Header handleClick = {handleClick}/>
         <section className="Navigate-Menu">
         <div className="Left-arrow">{'<'}NAVIGATE</div>
           <LeftSemiCircle text = {"HOME"} handleClick={handleClick} page = ".Landingpage"/>

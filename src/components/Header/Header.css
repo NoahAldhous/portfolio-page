@@ -1,41 +1,45 @@
-
-
 .Header{
-    background:transparent;
-    width: 100vw;
-    height: var(--Header-height);
-    position: fixed;
-    transition: top 0.4s;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    z-index: 1;
-   }
-
-.email-container{
-    text-decoration: none;
-    margin-right: 2%;
-}
-
-.email{
-    font-size: 1.5vw;
-    color: #B8336A;
-    transition: 0.2s;
-    border-bottom: 1px solid #B8336A;
-    margin-bottom: 0%;
-    margin-top: 0%;
-    text-decoration: none;
-}
-
-.email-container:hover .email{
-    color:#F3D1FF;
-    border-bottom: 1px solid #F3D1FF;
-    margin-bottom: 3%;
+    display: none;
 }
 
 
+/* Phone Sizing */
 @media only screen and (max-width: 600px) {
-.email{
-    font-size: 3vw;
-}
+    .Header{
+        background: transparent;
+        width: 100vw;
+        height: var(--Header-height);
+        position: fixed;
+        transition: top 0.4s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        border-bottom: 1px solid #B8336A;
+    }
+
+    .Header-Button-Container{
+        border: 1px solid green;
+        width: 95%;
+        height: 95%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Header-Button{
+        width: 18%;
+        text-align: center;
+        border: none;
+        border-bottom: 1px solid #B8336A;
+        background-color: transparent;
+        color: #B8336A;
+        font-family: inherit;
+        font-weight: bold;
+        font-size: 60%;
+        padding: 0%;
+        text-decoration: none;
+    }
+
 }
