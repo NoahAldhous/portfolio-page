@@ -6,7 +6,8 @@
 /* Phone Sizing */
 @media only screen and (max-width: 600px) {
     .Header{
-        background: transparent;
+        background-color: #0b0d16;
+        opacity: 90%;
         width: 100vw;
         height: var(--Header-height);
         position: fixed;
@@ -14,12 +15,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        z-index: 1;
+        z-index: 3;
         border-bottom: 1px solid #B8336A;
     }
 
     .Header-Button-Container{
-        border: 1px solid green;
+        /* border: 1px solid green; */
         width: 95%;
         height: 95%;
         display: flex;
@@ -29,17 +30,24 @@
     }
 
     .Header-Button{
-        width: 18%;
+        width: 15%;
         text-align: center;
+        align-items: center;
         border: none;
         border-bottom: 1px solid #B8336A;
         background-color: transparent;
         color: #B8336A;
         font-family: inherit;
         font-weight: bold;
-        font-size: 60%;
+        font-size: 2vw;
         padding: 0%;
         text-decoration: none;
+        transition: 0.3s;
+        border-radius: 1px;
     }
 
+    .Header-Button:hover{
+        background-color: #B8336A;
+        color: #0b0d16;
+    }
 }

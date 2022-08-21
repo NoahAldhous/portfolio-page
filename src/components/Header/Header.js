@@ -3,16 +3,16 @@ import './Header.css'
 
 export default function Header({ handleClick }){
 
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos){
-            document.querySelector(".Header").style.top = "0";
-        } else {
-            document.querySelector(".Header").style.top = "-15vh";
-        }
-        prevScrollpos = currentScrollPos;
-    }
+    // var prevScrollpos = window.pageYOffset;
+    // window.onscroll = function() {
+    //     var currentScrollPos = window.pageYOffset;
+    //     if (prevScrollpos > currentScrollPos){
+    //         document.querySelector(".Header").style.top = "0";
+    //     } else {
+    //         document.querySelector(".Header").style.top = "-15vh";
+    //     }
+    //     prevScrollpos = currentScrollPos;
+    // }
 
     return <div className = "Header">
         <section className = "Header-Button-Container">
