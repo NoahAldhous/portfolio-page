@@ -126,19 +126,21 @@
         flex-direction: column;
         border: 1px solid green; 
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         padding-top: 1%;
         padding-bottom: 1%;
-        height: 50%;
+        height: 60%;
         margin-top: 3%;
     }
     
     .Experience-button-container{
         /* border: 1px solid blue; */
-        width: 75%;
+        width: 100%;
         height: 5%;
         padding-top: 0%;
         padding-bottom: 0%;
+        margin-top: 2%;
+        margin-bottom: 2%;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -176,14 +178,17 @@
     
     .Experience-text-container{
         border: 2px dashed #B8336A;
-        width: 80%;
+        width: 90%;
         padding-top: 1%;
         padding-bottom: 1%;
         padding-left: 3%;
         padding-right: 3%;
         border-radius: 2%;
         transition: 0.3s;
-        height: 60%;
+        height: 55%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .Experience-text-header{
