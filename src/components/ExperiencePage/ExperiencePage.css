@@ -134,9 +134,9 @@
     }
     
     .Experience-button-container{
-        /* border: 1px solid blue; */
+        border: 1px solid blue;
         width: 75%;
-        height: 20%;
+        height: 30%;
         padding-top: 1%;
         padding-bottom: 1%;
         display: flex;
@@ -147,7 +147,7 @@
     
     .Experience-button{
         cursor: pointer;
-        height: 40%;
+        height: 50%;
         width: 45%;
         background-color: #0b0d16;
         border: 1px solid #B8336A;
