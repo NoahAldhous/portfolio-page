@@ -22,3 +22,32 @@ ul {
     flex-direction: column;
     justify-content: space-around;
   }
+
+@media only screen and (max-width: 600px) {
+  ul {
+    list-style: none; /* Remove default bullets */
+    font-size: 2vw;
+  }
+  
+  ul li::before {
+    content: "\>";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #B8336A;; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+  .Listoflikes{
+    /* border: 1px solid blue; */
+    width: 90%;
+    color: #F3D1FF;
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:0;
+  }
+}
