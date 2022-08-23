@@ -33,16 +33,16 @@
 /* Phone Sizing */
 @media only screen and (max-width: 600px) {
     .PortfolioPage{
-        width: 85%;
+        width: 100%;
         height: 100vh;
         background-color: #0b0d16;
         margin-top: 45vh;
-        margin-left:10%;
+        margin-left:0%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding-top: 2%;
-        /* border: 1px solid white; */
+        border: 1px solid white;
     }
     
     .Subheading{

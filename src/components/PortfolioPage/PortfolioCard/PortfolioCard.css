@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     border-radius: 30px;
+    align-items: center;
 }
 
 .Portfolio-card:before{
@@ -23,9 +24,9 @@
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    font-size: 100%;
+    font-size: 1.5vw;
     z-index: 1;
     text-align: center;
     font-weight: bold;
@@ -35,9 +36,16 @@
     opacity: 85%;
 }
 
+.icon-container{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
 .Icon-button{
     margin-top: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 0%;
     border-radius: 15px;
     transition: 0.2s;
     border: 1px solid #0b0d16;
@@ -97,9 +105,9 @@
         border-radius: 30px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
-        font-size: 3vw;
+        font-size: 2vw;
         z-index: 1;
         text-align: center;
         font-weight: bold;
@@ -107,6 +115,13 @@
     
     .card-overlay:hover{
         opacity: 85%;
+    }
+
+    .icon-container{
+        width: 80%;
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
     }
     
     .Icon-button{
