@@ -25,7 +25,7 @@ export default function ExperienceText({activeButton}){
                 I'm fresh out of the School of Code and ready to start my career in the weird
                 and wonderful world of tech!
                 <br/>
-                If you have a position open, and interested reaching out to arrange an interview,
+                If you have a position open, and are interested in reaching out to arrange an interview, please
                 don't hesitate to <a className = "Email-link" href="mailto:naldhous@hotmail.co.uk" target='_blank' rel='noreferrer'>contact me!</a>
             </p>
          </section>
