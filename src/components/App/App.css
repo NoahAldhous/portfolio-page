@@ -76,7 +76,6 @@
   transition: 0.5s;
   font-size: 2vw;
   margin: none;
-  animation: pulse 2.5s infinite, fadein 0.5s 1;
   font-weight: bold;
 }
 
@@ -94,15 +93,9 @@
   font-size: 2vw;
   margin: none;
   text-align: right;
-  animation: pulse 3s infinite, fadein 0.4s 1;
   font-weight: bold;
 }
 
-@keyframes pulse{
-  0% { opacity: 60%; }
-  50% { opacity: 100%; }
-  100% { opacity: 60%; }
-}
 
 @keyframes fadeout{
   0% {opacity: 75%;}
