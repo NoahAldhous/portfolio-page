@@ -1,7 +1,7 @@
 .Aboutmepage{
     width:85%;
     height: 100vh;
-    background-color: var(--bg-color);
+    background-color: none;
     margin-top: 45vh;
     margin-left:10%;
     display: flex;

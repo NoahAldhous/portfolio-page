@@ -1,7 +1,7 @@
 .Landingpage{
     width:85%;
     height: 100vh;
-    background-color: var(--bg-color);
+    background-color: none;
     margin-left: 10%;
     display: flex;
     flex-direction: column;

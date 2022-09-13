@@ -9,12 +9,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--bg-color);
+  transition: 0.5s;
 }
 
 .light-mode{
   --bg-color: #f8e5ff;
   --primary-color: #5f00a2;
   --secondary-color: #36005c;
+  transition: 0.5s;
 }
 
 code {

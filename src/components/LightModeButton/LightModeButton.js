@@ -28,9 +28,9 @@ export default function LightModeButton(){
     }
 
     return <div className = "light-mode-button-container">
-            <div className = "light-mode-button-text">{lightModeText}</div>
+            <div className = "light-mode-button-text" onClick = {toggleLightMode}>{lightModeText}</div>
             <i class="gg-dark-mode" onClick = {toggleLightMode}></i>
-            <div className = "light-mode-button-text">MODE</div>
+            <div className = "light-mode-button-text" onClick = {toggleLightMode}>MODE</div>
 
     </div>
 
