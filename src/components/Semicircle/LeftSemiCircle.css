@@ -3,7 +3,7 @@
     width: 400%;
     transform: translate(-35%);
     border-radius: 0px 150px 150px 0px;
-    background-color: #b8336ac1;
+    background-color: #ff6ece;
     transition: 0.5s;
     opacity: 50%;
     display: flex;
@@ -13,7 +13,7 @@
     justify-content: center;
     font-family: inherit;
     font-size: 1vw;
-    color:#0b0d16;
+    color:var(--bg-color);
     font-weight: bold;
   }
   

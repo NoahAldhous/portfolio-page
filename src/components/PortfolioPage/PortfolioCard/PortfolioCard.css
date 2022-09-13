@@ -15,10 +15,10 @@
 
 .card-overlay{
     position: absolute;
-    border: 2px solid #B8336A;
+    border: 2px solid #ff6ece;
     width: 99%;
     height:99%;
-    background-color: #B8336A;
+    background-color: #ff6ece;
     opacity: 0%;
     transition: 0.4s;
     border-radius: 30px;
@@ -48,15 +48,15 @@
     margin-bottom: 0%;
     border-radius: 15px;
     transition: 0.2s;
-    border: 1px solid #0b0d16;
-    background-color: #B8336A;
-    color:#0b0d16;
+    border: 1px solid var(--bg-color);
+    background-color: #ff6ece;
+    color: var(--bg-color);
     cursor: pointer;
 }
 
 .Icon-button:hover{
-    background-color:#0b0d16;
-    color: #B8336A;
+    background-color: var(--bg-color);
+    color: #ff6ece;
 }
 
 .Github-icon:hover{
@@ -72,10 +72,10 @@
     width:100%;
     border-radius: 30px;
     /* border: 1px solid yellow; */
-    border: 2px solid #B8336A;
+    border: 2px solid #ff6ece;
     z-index: 0;
     opacity: 80%;
-    background-color: #B8336A;
+    background-color: #ff6ece;
 }
 
 /* Phone Sizing */
@@ -96,10 +96,10 @@
     
     .card-overlay{
         position: absolute;
-        border: 2px solid #B8336A;
+        border: 2px solid #ff6ece;
         width: 99%;
         height:99%;
-        background-color: #B8336A;
+        background-color: #ff6ece;
         opacity: 0%;
         transition: 0.4s;
         border-radius: 30px;
@@ -129,15 +129,15 @@
         margin-bottom: 2%;
         border-radius: 15px;
         transition: 0.2s;
-        border: 1px solid #0b0d16;
-        background-color: #B8336A;
-        color:#0b0d16;
+        border: 1px solid var(--bg-color);
+        background-color: #ff6ece;
+        color:var(--bg-color);
         cursor: pointer;
     }
     
     .Icon-button:hover{
-        background-color:#0b0d16;
-        color: #B8336A;
+        background-color:var(--bg-color);
+        color: #ff6ece;
     }
     
     .Github-icon:hover{
@@ -153,9 +153,9 @@
         width:100%;
         border-radius: 30px;
         /* border: 1px solid yellow; */
-        border: 2px solid #B8336A;
+        border: 2px solid #ff6ece;
         z-index: 0;
         opacity: 80%;
-        background-color: #B8336A;
+        background-color: #ff6ece;
     }
 }

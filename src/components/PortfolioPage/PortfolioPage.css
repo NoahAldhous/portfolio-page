@@ -1,7 +1,7 @@
 .PortfolioPage{
     width: 85%;
     height: 100vh;
-    background-color: #0b0d16;
+    background-color: var(--bg-color);
     margin-top: 45vh;
     margin-left:10%;
     display: flex;
@@ -15,7 +15,7 @@
     margin: 0px;
     margin-top: 3%;
     font-size: 5vw;
-    color: #B8336A;
+    color: #ff6ece;
     font-weight: lighter;
 }
 
@@ -35,7 +35,7 @@
     .PortfolioPage{
         width: 100%;
         height: 100vh;
-        background-color: #0b0d16;
+        background-color: var(--bg-color);
         margin-top: 45vh;
         margin-left:0%;
         display: flex;
@@ -49,7 +49,7 @@
         margin: 0px;
         margin-top: 3%;
         font-size: 5vw;
-        color: #B8336A;
+        color: #ff6ece;
         font-weight: lighter;
     }
     

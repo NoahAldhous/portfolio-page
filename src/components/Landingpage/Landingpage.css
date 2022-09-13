@@ -1,7 +1,7 @@
 .Landingpage{
     width:85%;
     height: 100vh;
-    background-color: #0b0d16;
+    background-color: var(--bg-color);
     margin-left: 10%;
     display: flex;
     flex-direction: column;
@@ -21,21 +21,21 @@
 .Heading-Developer{
     margin: 0px;
     font-size: 4vw;
-    color: #B8336A;
+    color: #ff6ece;
     font-weight: lighter;
 }
 
 .Body-Text{
     padding-top: 2%;
     font-size: 3vw;
-    color: #B8336A;
+    color: #ff6ece;
 }
 
 .SoC-Link{
-    color: #B8336A;
+    color: #ff6ece;
     text-decoration: none;
     transition:0.2s;
-    border-bottom: 1px solid #B8336A;
+    border-bottom: 1px solid #ff6ece;
 }
 
 .SoC-Link:hover{   
@@ -52,7 +52,7 @@
     .Landingpage{
         width:100%;
         height: 100vh;
-        background-color: #0b0d16;
+        background-color: var(--bg-color);
         margin-left: 0%;
         display: flex;
         flex-direction: column;
@@ -73,7 +73,7 @@
     .Heading-Developer{
         margin: 0px;
         font-size: 7vw;
-        color: #B8336A;
+        color: #ff6ece;
         font-weight: lighter;
         text-align: center;
     }
@@ -81,7 +81,7 @@
     .Body-Text{
         padding-top: 2%;
         font-size: 6vw;
-        color: #B8336A;
+        color: #ff6ece;
         text-align: center;
     }
     

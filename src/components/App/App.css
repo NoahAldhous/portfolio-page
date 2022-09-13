@@ -2,6 +2,7 @@
   --Navbar-container-width: 20vw;
   --Header-height: 10vh;
   --Navbar-left-margin: 18%;
+  --bg-color: #0a0015
  }
 
 
@@ -18,7 +19,7 @@
 }
 
 .Main{
- background-color: #0b0d16;
+ background-color: var(--bg-color);
  display: flex;
  flex-direction: row;
  width: 100%;
@@ -26,7 +27,7 @@
 }
 
 .Navigate-Menu{
-  background-color: #0b0d16;
+  background-color: var(--bg-color);
   position: fixed;
   left: 0;
   width: 20vw;
@@ -42,7 +43,7 @@
 }
 
 .Content-container{
-  background-color: #0b0d16;
+  background-color: var(--bg-color);
   height:100%;
   width: 60vw;
   display: flex;
@@ -53,7 +54,7 @@
 }
 
 .Line-container{
-  background-color: #0b0d16;
+  background-color: var(--bg-color);
   position: fixed;
   right: 0;
   width: 20vw;
@@ -71,7 +72,7 @@
 .Left-arrow{
   position: absolute;
   left: 10%;
-  color:#b8336ac1;
+  color:#ff6ece;
   top: 47.5%;
   transition: 0.5s;
   font-size: 2vw;
@@ -87,7 +88,7 @@
 .Right-arrow{
   position: absolute;
   right: 10%;
-  color: #b8336ac1;
+  color: #ff6ece;
   top: 47.5%;
   transition: 0.5s;
   font-size: 2vw;

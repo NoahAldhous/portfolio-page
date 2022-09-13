@@ -1,7 +1,7 @@
 .ContactPage{
     width: 85%;
     height: 100vh;
-    background-color: #0b0d16;
+    background-color: var(--bg-color);
     margin-top: 45vh;
     margin-left:10%;
     display: flex;
@@ -15,14 +15,14 @@
     margin: 0px;
     margin-top: 3%;
     font-size: 5vw;
-    color: #B8336A;
+    color: #ff6ece;
     font-weight: lighter;
 }
 
 .ContactText-container{
     margin-top: 2%;
     font-size: 4.5vw;
-    color: #B8336A;
+    color: #ff6ece;
     font-weight: lighter;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@
 
 .ContactText{
     text-decoration: none;
-    color:#B8336A;
+    color:#ff6ece;
     transition: 0.3s;
 }
 
@@ -47,7 +47,7 @@
     .ContactPage{
         width: 85%;
         height: 100vh;
-        background-color: #0b0d16;
+        background-color: var(--bg-color);
         margin-top: 45vh;
         margin-left:10%;
         display: flex;
@@ -61,14 +61,14 @@
         margin: 0px;
         margin-top: 3%;
         font-size: 10vw;
-        color: #B8336A;
+        color: #ff6ece;
         font-weight: lighter;
     }
     
     .ContactText-container{
         margin-top: 2%;
         font-size: 9vw;
-        color: #B8336A;
+        color: #ff6ece;
         font-weight: lighter;
         display: flex;
         flex-direction: column;
@@ -76,7 +76,7 @@
     
     .ContactText{
         text-decoration: none;
-        color:#B8336A;
+        color:#ff6ece;
         transition: 0.3s;
     }
     

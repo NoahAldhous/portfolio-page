@@ -5,7 +5,7 @@
     transition: 0.3s;
     border: 2px solid #B8336A;
     color: #B8336A;
-    background-color: #0e101bd0;
+    background-color: var(--bg-color);
     font-family: inherit;
     font-size: 2vw;
     cursor: pointer;
@@ -26,7 +26,7 @@
 
 .Navbutton:hover {
     background-color: #B8336A;
-    color: #0E101B;
+    color: var(--bg-color);
 }
 
 /* ABOUT ME */
