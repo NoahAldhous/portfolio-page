@@ -11,7 +11,7 @@
         width: 100vw;
         height: var(--Header-height);
         position: fixed;
-        transition: top 0.4s;
+        transition: background-color 0.5s;
         display: flex;
         flex-direction: row;
         align-items: center;
