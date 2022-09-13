@@ -17,7 +17,7 @@
         align-items: center;
         justify-content: space-evenly;
         z-index: 3;
-        border-bottom: 1px solid #ff6ece;
+        border-bottom: 1px solid var(--primary-color);
     }
 
     .Header-Button-Container{
@@ -35,9 +35,9 @@
         text-align: center;
         align-items: center;
         border: none;
-        border-bottom: 1px solid #ff6ece;
+        border-bottom: 1px solid var(--primary-color);
         background-color: transparent;
-        color: #ff6ece;
+        color: var(--primary-color);
         font-family: inherit;
         font-weight: bold;
         font-size: 3vw;
@@ -48,7 +48,7 @@
     }
 
     .Header-Button:hover{
-        background-color: #ff6ece;
+        background-color: var(--primary-color);
         color: var(--bg-color);
     }
 }

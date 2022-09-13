@@ -2,7 +2,8 @@
   --Navbar-container-width: 20vw;
   --Header-height: 10vh;
   --Navbar-left-margin: 18%;
-  --bg-color: #0a0015
+  --bg-color: #0a0015;
+  --primary-color: #ff6ece;
  }
 
 
@@ -72,7 +73,7 @@
 .Left-arrow{
   position: absolute;
   left: 10%;
-  color:#ff6ece;
+  color:var(--primary-color);
   top: 47.5%;
   transition: 0.5s;
   font-size: 2vw;
@@ -88,7 +89,7 @@
 .Right-arrow{
   position: absolute;
   right: 10%;
-  color: #ff6ece;
+  color: var(--primary-color);
   top: 47.5%;
   transition: 0.5s;
   font-size: 2vw;

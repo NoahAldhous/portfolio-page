@@ -15,7 +15,7 @@
     margin: 0px;
     margin-top: 3%;
     font-size: 5vw;
-    color: #ff6ece;
+    color: var(--primary-color);
     font-weight: lighter;
 }
 
@@ -45,9 +45,9 @@
     cursor: pointer;
     height: 10%;
     background-color: var(--bg-color);
-    border: 2px solid #ff6ece;
+    border: 2px solid var(--primary-color);
     border-radius: 15px 0 0 15px;
-    color:#ff6ece;
+    color:var(--primary-color);
     transition: 0.3s;
     border-right: none;
     font-family: inherit;
@@ -55,17 +55,17 @@
 }
 
 .Experience-button:hover{
-    background-color: #ff6ece;
+    background-color: var(--primary-color);
     color:var(--bg-color);
 }
 
 .Active-button{
-    background-color:#ff6ece;
+    background-color:var(--primary-color);
     color:var(--bg-color);
 }
 
 .Experience-text-container{
-    border: 2px dashed #ff6ece;
+    border: 2px dashed var(--primary-color);
     width: 65%;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -77,7 +77,7 @@
 }
 
 .Experience-text-header{
-    color:#ff6ece;
+    color:var(--primary-color);
     /* border: 1px solid blue; */
     font-size: 1.8vw;
 }
@@ -117,7 +117,7 @@
         margin: 0px;
         margin-top: 0%;
         font-size: 5vw;
-        color: #B8336A;
+        color: var(--primary-color);
         font-weight: lighter;
     }
     
@@ -152,9 +152,9 @@
         height: 100%;
         width: 45%;
         background-color: var(--bg-color);
-        border: 1px solid #B8336A;
+        border: 1px solid var(--primary-color);
         border-radius: 15px;
-        color:#B8336A;
+        color:var(--primary-color);
         transition: 0.3s;
         border-right: none;
         font-family: inherit;
@@ -167,17 +167,17 @@
     }
     
     .Experience-button:hover{
-        background-color: #B8336A;
+        background-color: var(--primary-color);
         color:var(--bg-color);
     }
     
     .Active-button{
-        background-color:#B8336A;
+        background-color:var(--primary-color);
         color:var(--bg-color);
     }
     
     .Experience-text-container{
-        border: 2px dashed #B8336A;
+        border: 2px dashed var(--primary-color);
         width: 90%;
         padding-top: 1%;
         padding-bottom: 1%;
@@ -192,7 +192,7 @@
     }
     
     .Experience-text-header{
-        color:#B8336A;
+        color:var(--primary-color);
         /* border: 1px solid blue; */
         font-size: 3.5vw;
     }

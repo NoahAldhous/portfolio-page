@@ -15,7 +15,7 @@
     margin: 0px;
     margin-top: 3%;
     font-size: 5vw;
-    color: #ff6ece;
+    color: var(--primary-color);
     font-weight: lighter;
 }
 
@@ -49,7 +49,7 @@
         margin: 0px;
         margin-top: 3%;
         font-size: 5vw;
-        color: #ff6ece;
+        color: var(--primary-color);
         font-weight: lighter;
     }
     

@@ -21,21 +21,21 @@
 .Heading-Developer{
     margin: 0px;
     font-size: 4vw;
-    color: #ff6ece;
+    color: var(--primary-color);
     font-weight: lighter;
 }
 
 .Body-Text{
     padding-top: 2%;
     font-size: 3vw;
-    color: #ff6ece;
+    color: var(--primary-color);
 }
 
 .SoC-Link{
-    color: #ff6ece;
+    color: var(--primary-color);
     text-decoration: none;
     transition:0.2s;
-    border-bottom: 1px solid #ff6ece;
+    border-bottom: 1px solid var(--primary-color);
 }
 
 .SoC-Link:hover{   
@@ -73,7 +73,7 @@
     .Heading-Developer{
         margin: 0px;
         font-size: 7vw;
-        color: #ff6ece;
+        color: var(--primary-color);
         font-weight: lighter;
         text-align: center;
     }
@@ -81,7 +81,7 @@
     .Body-Text{
         padding-top: 2%;
         font-size: 6vw;
-        color: #ff6ece;
+        color: var(--primary-color);
         text-align: center;
     }
     

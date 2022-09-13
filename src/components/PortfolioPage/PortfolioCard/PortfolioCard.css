@@ -15,10 +15,10 @@
 
 .card-overlay{
     position: absolute;
-    border: 2px solid #ff6ece;
+    border: 2px solid var(--primary-color);
     width: 99%;
     height:99%;
-    background-color: #ff6ece;
+    background-color: var(--primary-color);
     opacity: 0%;
     transition: 0.4s;
     border-radius: 30px;
@@ -49,14 +49,14 @@
     border-radius: 15px;
     transition: 0.2s;
     border: 1px solid var(--bg-color);
-    background-color: #ff6ece;
+    background-color: var(--primary-color);
     color: var(--bg-color);
     cursor: pointer;
 }
 
 .Icon-button:hover{
     background-color: var(--bg-color);
-    color: #ff6ece;
+    color: var(--primary-color);
 }
 
 .Github-icon:hover{
@@ -72,10 +72,10 @@
     width:100%;
     border-radius: 30px;
     /* border: 1px solid yellow; */
-    border: 2px solid #ff6ece;
+    border: 2px solid var(--primary-color);
     z-index: 0;
     opacity: 80%;
-    background-color: #ff6ece;
+    background-color: var(--primary-color);
 }
 
 /* Phone Sizing */
@@ -96,10 +96,10 @@
     
     .card-overlay{
         position: absolute;
-        border: 2px solid #ff6ece;
+        border: 2px solid var(--primary-color);
         width: 99%;
         height:99%;
-        background-color: #ff6ece;
+        background-color: var(--primary-color);
         opacity: 0%;
         transition: 0.4s;
         border-radius: 30px;
@@ -130,14 +130,14 @@
         border-radius: 15px;
         transition: 0.2s;
         border: 1px solid var(--bg-color);
-        background-color: #ff6ece;
+        background-color: var(--primary-color);
         color:var(--bg-color);
         cursor: pointer;
     }
     
     .Icon-button:hover{
         background-color:var(--bg-color);
-        color: #ff6ece;
+        color: var(--primary-color);
     }
     
     .Github-icon:hover{
@@ -153,9 +153,9 @@
         width:100%;
         border-radius: 30px;
         /* border: 1px solid yellow; */
-        border: 2px solid #ff6ece;
+        border: 2px solid var(--primary-color);
         z-index: 0;
         opacity: 80%;
-        background-color: #ff6ece;
+        background-color: var(--primary-color);
     }
 }

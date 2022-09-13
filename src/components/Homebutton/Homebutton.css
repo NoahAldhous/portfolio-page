@@ -1,14 +1,14 @@
 .Homebutton{
     margin-left: var(--Navbar-left-margin);
     background: none;
-    color: #ff6ece;
+    color: var(--primary-color);
     border-radius: 15px;
     position:relative;
     left:15%;
     transition: 0.3s;
     width: 70%;
     height:100%;
-    border: 2px solid #ff6ece;
+    border: 2px solid var(--primary-color);
     background-color: var(--bg-color);
     cursor: pointer;
     padding: 0;
@@ -16,6 +16,6 @@
 }
 
 .Homebutton:hover{
-    background-color: #ff6ece;
+    background-color: var(--primary-color);
     color: var(--bg-color);
 }
