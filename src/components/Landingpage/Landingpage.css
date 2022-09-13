@@ -8,13 +8,14 @@
     justify-content: center;
     margin-right: 20vw;
     padding-top: 2%;
+    /* transition: background-color 0.3s; */
     /* border: 1px solid blue; */
 }
 
 .Heading{
     margin: 0px;
     font-size: 6vw;
-    color: #F3D1FF;
+    color:  var(--secondary-color);
     font-weight: lighter;
 }
 
@@ -40,8 +41,8 @@
 
 .SoC-Link:hover{   
     padding-bottom: 0.3%;
-    color:#F3D1FF;
-    border-bottom: 1px solid #F3D1FF;
+    color: var(--secondary-color);
+    border-bottom: 1px solid  var(--secondary-color);
 }
 
 
@@ -65,7 +66,7 @@
     .Heading{
         margin: 0px;
         font-size: 10vw;
-        color: #F3D1FF;
+        color:  var(--secondary-color);
         font-weight: lighter;
         text-align: center;
     }
@@ -86,16 +87,16 @@
     }
     
     .SoC-Link{
-        color: #F3D1FF;
+        color:  var(--secondary-color);
         text-decoration: none;
         transition:0.2s;
-        border-bottom: 1px solid #F3D1FF;
+        border-bottom: 1px solid  var(--secondary-color);
     }
     
     .SoC-Link:hover{   
         padding-bottom: 0.3%;
-        color:#F3D1FF;
-        border-bottom: 1px solid #F3D1FF;
+        color: var(--secondary-color);
+        border-bottom: 1px solid  var(--secondary-color);
     }
 
 }

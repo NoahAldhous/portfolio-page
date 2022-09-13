@@ -35,7 +35,7 @@
 }
 
 .ContactText:hover{
-    color: #F3D1FF;
+    color:  var(--secondary-color);
     font-weight: normal;
     padding-left: 1%;
 }
@@ -81,7 +81,7 @@
     }
     
     .ContactText:hover{
-        color: #F3D1FF;
+        color:  var(--secondary-color);
         font-weight: normal;
         padding-left: 1%;
     }

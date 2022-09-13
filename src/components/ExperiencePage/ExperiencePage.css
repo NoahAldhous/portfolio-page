@@ -83,13 +83,13 @@
 }
 
 .Experience-date{
-    color: #F3D1FF;
+    color:  var(--secondary-color);
     /* border: 1px solid green; */
     font-size: 1.5vw;
 }
 
 .Experience-text{
-    color: #F3D1FF;
+    color:  var(--secondary-color);
     /* border: 1px solid red; */
     font-size: 1.4vw;
     font-weight:bold;
@@ -198,13 +198,13 @@
     }
     
     .Experience-date{
-        color: #F3D1FF;
+        color:  var(--secondary-color);
         /* border: 1px solid green; */
         font-size: 3vw;
     }
     
     .Experience-text{
-        color: #F3D1FF;
+        color:  var(--secondary-color);
         /* border: 1px solid red; */
         font-size: 3vw;
         font-weight:bold;

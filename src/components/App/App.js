@@ -1,23 +1,23 @@
+import './App.css';
 import Aboutmepage from '../Aboutmepage/Aboutmepage';
 import ExperiencePage from '../ExperiencePage/ExperiencePage';
 import Landingpage from '../Landingpage/Landingpage';
 import PortfolioPage from '../PortfolioPage/PortfolioPage';
 import Semicircle from '../Semicircle/Semicircle';
 import LeftSemiCircle from '../Semicircle/LeftSemiCircle';
-import './App.css';
 import ContactPage from '../ContactPage/ContactPage';
 import Header from '../Header/Header';
+import LightModeButton from '../LightModeButton/LightModeButton';
 
 
 function App() {
 
   function handleClick(page) {
-    document.querySelector(page).scrollIntoView()
+    document.querySelector(page).scrollIntoView();
   }
 
   return (
     <div className="App">
-      {/* <Header/> */}
       <div className="Main">
       <Header handleClick = {handleClick}/>
         <section className="Navigate-Menu">
@@ -29,7 +29,8 @@ function App() {
           <LeftSemiCircle text = {"CONTACT"} handleClick={handleClick} page= ".ContactPage"/>
         </section>
         <section className="Content-container">
-          <Landingpage Landingpage = "Landingpage"/>
+          <LightModeButton/>
+          <Landingpage/>
           <Aboutmepage/>
           <PortfolioPage/>
           <ExperiencePage/>

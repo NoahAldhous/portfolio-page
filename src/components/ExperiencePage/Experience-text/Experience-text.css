@@ -3,8 +3,8 @@
     margin-bottom: 0%;
     margin-top: 0%;
     text-decoration: none;
-    color:#F3D1FF;
-    border-bottom: 1px solid #F3D1FF;
+    color: var(--secondary-color);
+    border-bottom: 1px solid  var(--secondary-color);
 }
 
 .Email-link:hover{

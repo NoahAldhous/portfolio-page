@@ -26,7 +26,7 @@
     flex-direction: column;
     justify-content: space-around;
     width: 60%;
-    color:#F3D1FF;
+    color: var(--secondary-color);
     /* border: 1px solid green; */
     height: 90%;
     padding-right: 5%;
@@ -129,7 +129,7 @@
 }
 
 .noah{
-    color:#F3D1FF;
+    color: var(--secondary-color);
     font-size: 150%;
     margin: 0;
     margin-top: 5%;
@@ -169,7 +169,7 @@
         flex-direction: column;
         justify-content: space-around;
         width: 100%;
-        color:#F3D1FF;
+        color: var(--secondary-color);
         /* border: 1px solid green; */
         height: 60%;
         padding-right: 0%;
@@ -271,7 +271,7 @@
     }
     
     .noah{
-        color:#F3D1FF;
+        color: var(--secondary-color);
         font-size: 150%;
         margin: 0;
         margin-top: 2%;
