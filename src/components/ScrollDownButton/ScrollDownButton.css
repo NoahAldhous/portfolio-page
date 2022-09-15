@@ -1,0 +1,37 @@
+.Icon-container{
+    width: 100vw;
+    position: fixed;
+    top: 91%;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    /* border: 1px solid blue; */
+  }
+
+.Icon-container:hover .scroll-down-button-text{
+    opacity: 100%;
+}
+  
+  .Arrow-Icon{
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .scroll-down-button-text{
+    opacity: 0%;
+    transition: 0.5s;
+    font-weight:bold;
+    color: var(--secondary-color);
+    padding-left: 0.3%;
+    padding-right: 0.3%;
+    margin: 0;
+    cursor: pointer;
+}
+
+.invisible{
+    display: none;
+}

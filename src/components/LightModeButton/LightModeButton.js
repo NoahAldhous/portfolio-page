@@ -4,17 +4,8 @@ import { useState } from 'react';
 export default function LightModeButton(){
 
     const [lightModeText, setLightModeText] = useState('LIGHT')
-    var prevScrollpos = window.pageYOffset;
 
-    window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos){
-            document.querySelector(".light-mode-button-container").style.top = "0";
-        } else {
-            document.querySelector(".light-mode-button-container").style.top = "-15vh";
-        }
-        prevScrollpos = currentScrollPos;
-    }
+
 
     function toggleLightMode(){
         var element = document.body;

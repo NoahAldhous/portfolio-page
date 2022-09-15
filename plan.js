@@ -14,19 +14,21 @@ App- a div that containts all other elements.
                 About-me-page ✅
                 Portfolio-page ✅
                 Experience-page ✅
-                Contact-me-page
+                Contact-me-page ✅
 
     !TO DO!
     Portfolio Images + Links set up. (polish the portfolio apps)
-        -typing test (css, implement final features)
+        -typing test (css, implement final features) ✅
         -aws to do list (polish, css, deploy)
         -reCapp app (fork + deploy)
-        -final project (could be added now tbh)
+        -final project (could be added now tbh) ✅
         -some game (memory game?)
         -weather app (css, deploy)
+        -
 
-    Fix the Experience page to render text correctly (not including the html elements)
-    Contact Info Page 
-    Figure out what to do with the side blobs
-    
+    Fix the Experience page to render text correctly (not including the html elements) ✅
+    Contact Info Page ✅
+    Figure out what to do with the side blobs ✅
+    Add a footer (built by Noah Aldhous 2022)
+    Add a scroll down arrow on landing page!
  */

@@ -8,9 +8,32 @@ import LeftSemiCircle from '../Semicircle/LeftSemiCircle';
 import ContactPage from '../ContactPage/ContactPage';
 import Header from '../Header/Header';
 import LightModeButton from '../LightModeButton/LightModeButton';
+import ScrollDownButton from '../ScrollDownButton/ScrollDownButton';
+import Footer from '../Footer/Footer';
+
 
 
 function App() {
+
+  var prevScrollpos = window.pageYOffset;
+
+  window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+ 
+      if(currentScrollPos === 0){
+          document.querySelector(".Icon-container").style.opacity = "100";
+          document.querySelector(".Icon-container").style.top = "91%";
+      }
+      else if (prevScrollpos > currentScrollPos){
+          document.querySelector(".light-mode-button-container").style.top = "0%";
+      } 
+      else {
+          document.querySelector(".light-mode-button-container").style.top = "-15vh";
+          document.querySelector(".Icon-container").style.opacity = "0";
+          document.querySelector(".Icon-container").style.top = "115vh";
+      }
+      prevScrollpos = currentScrollPos;
+  }
 
   function handleClick(page) {
     document.querySelector(page).scrollIntoView();
@@ -31,6 +54,7 @@ function App() {
         <section className="Content-container">
           <LightModeButton/>
           <Landingpage/>
+          <ScrollDownButton/>
           <Aboutmepage/>
           <PortfolioPage/>
           <ExperiencePage/>
@@ -45,6 +69,7 @@ function App() {
           <Semicircle text = {"INSTAGRAM"} url={'https://www.instagram.com/the_oldhaus/'}/>
         </section>
       </div>
+          <Footer/>
     </div>
   );
 }

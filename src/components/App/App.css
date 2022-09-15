@@ -113,9 +113,6 @@
   animation: fadeout 0.5s 1;
 }
 
-
-
-
 /* Phone Sizing */
 @media only screen and (max-width: 600px) {
   :root{
