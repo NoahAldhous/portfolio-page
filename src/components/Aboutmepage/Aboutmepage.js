@@ -41,12 +41,12 @@ export default function Aboutmepage(){
                 <section className="Tech-list-container">
                     <section className="Tech-list">
                             <p className="Tech">React JS</p>
-                            <p className="Tech">AWS Amplify</p>
-                            <p className="Tech">postgreSQL</p>
+                            <p className="Tech">MongoDB</p>
+                            <p className="Tech">Auth0</p>
                     </section>
                     <section className="Tech-list">
-                        <p className="Tech">Chakra UI</p>
-                        <p className="Tech">Express JS</p>
+                        <p className="Tech">Tailwind CSS</p>
+                        <p className="Tech">Next JS</p>
                         <p className="Tech">Typescript</p>
                     </section>
                     </section>

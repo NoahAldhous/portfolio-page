@@ -63,7 +63,7 @@ function App() {
         <section className="Line-container">
         <div className="Right-arrow">CONNECT{'>'}</div>
           <Semicircle text = {"EMAIL"} url={"mailto:naldhous@hotmail.co.uk"}/>
-          <Semicircle text = {"LINKEDIN"} url={'https://www.linkedin.com/in/noah-aldhous-4436a3195/'}/>
+          <Semicircle text = {"LINKEDIN"} url={'https://www.linkedin.com/in/noah-aldhous/'}/>
           <Semicircle text = {"GITHUB"} url={'https://github.com/NoahAldhous'}/>
           <Semicircle text = {"TWITTER"} url={'https://twitter.com/theOldHaus'}/>
           <Semicircle text = {"INSTAGRAM"} url={'https://www.instagram.com/the_oldhaus/'}/>
