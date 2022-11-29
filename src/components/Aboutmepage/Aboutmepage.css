@@ -16,7 +16,7 @@
     display: flex; 
     justify-content: space-evenly;
     /* border: 1px solid orange;  */
-    height: 70%;
+    max-height: 100%;
     padding-top: 2%;
     padding-bottom: 5%;
 }
@@ -42,7 +42,7 @@
     border: 2px solid var(--primary-color);
     border-radius: 15px;
     padding: 2%;
-    height: 90%
+    /* height: 90%; */
 }
 
 .Subheading{
@@ -119,8 +119,8 @@
   }
 
 .Profile-picture{
-    max-width: 70%;
-    max-height: 70%;
+    width: 60%;
+    height: 60%;
     object-fit: scale-down;
     clip-path: circle();
     margin-top: 5%;
@@ -130,7 +130,7 @@
 
 .noah{
     color: var(--secondary-color);
-    font-size: 150%;
+    font-size: 2vw;
     margin: 0;
     margin-top: 5%;
     margin-bottom: 5%;
