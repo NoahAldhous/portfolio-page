@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     padding-top: 2%;
+    min-height: 400px;
     /* border: 1px solid white; */
 }
 
@@ -42,6 +43,7 @@
         flex-direction: column;
         justify-content: center;
         padding-top: 2%;
+        min-height: 800px;
         /* border: 1px solid white; */
     }
     

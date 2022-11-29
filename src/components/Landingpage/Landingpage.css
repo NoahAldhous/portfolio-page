@@ -8,6 +8,7 @@
     justify-content: center;
     margin-right: 20vw;
     padding-top: 2%;
+    min-height: 400px;
     /* transition: background-color 0.3s; */
     /* border: 1px solid blue; */
 }
@@ -60,6 +61,7 @@
         justify-content: center;
         margin-right: 0%;
         padding-top: 2%;
+        min-height: 800px;
         /* border: 1px solid blue; */
     }
     

@@ -10,6 +10,7 @@
         opacity: 90%;
         width: 100vw;
         height: var(--Header-height);
+        min-height: 35px;
         position: fixed;
         transition: background-color 0.5s;
         display: flex;
