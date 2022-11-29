@@ -1,4 +1,5 @@
 import './Header.css'
+import NoahAldhousCV from '../Data/NoahAldhousCV.pdf'
 
 
 export default function Header({ handleClick }){
@@ -25,7 +26,7 @@ export default function Header({ handleClick }){
         </section>
         <section className = "Header-Button-Container">
             <button className = "Header-Button" onClick = {function(){handleClick(".ContactPage")}}>CONTACT</button>
-            <button className = "Header-Button" onClick = {function(){handleClick(".ContactPage")}}>CV</button>
+            <button className = "Header-Button" onClick = {function(){window.open(NoahAldhousCV)}}>CV</button>
         </section>
     </div>
 }

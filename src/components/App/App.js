@@ -10,6 +10,7 @@ import Header from '../Header/Header';
 import LightModeButton from '../LightModeButton/LightModeButton';
 import ScrollDownButton from '../ScrollDownButton/ScrollDownButton';
 import Footer from '../Footer/Footer';
+import NoahAldhousCV from '../Data/NoahAldhousCV.pdf'
 
 
 
@@ -66,7 +67,8 @@ function App() {
           <Semicircle text = {"LINKEDIN"} url={'https://www.linkedin.com/in/noah-aldhous/'}/>
           <Semicircle text = {"GITHUB"} url={'https://github.com/NoahAldhous'}/>
           <Semicircle text = {"TWITTER"} url={'https://twitter.com/theOldHaus'}/>
-          <Semicircle text = {"INSTAGRAM"} url={'https://www.instagram.com/the_oldhaus/'}/>
+          {/* <Semicircle text = {"INSTAGRAM"} url={'https://www.instagram.com/the_oldhaus/'}/> */}
+          <Semicircle text = {"CV"} url={NoahAldhousCV}/>
         </section>
       </div>
           <Footer/>
