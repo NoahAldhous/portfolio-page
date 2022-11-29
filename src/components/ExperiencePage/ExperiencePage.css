@@ -93,6 +93,8 @@
     /* border: 1px solid red; */
     font-size: 1.4vw;
     font-weight:bold;
+    padding: 0;
+    color: blue;
 }
 
 
