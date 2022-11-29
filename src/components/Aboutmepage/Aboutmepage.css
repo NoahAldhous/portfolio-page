@@ -1,6 +1,7 @@
 .Aboutmepage{
     width:85%;
     height: 100vh;
+    min-height: 400px;
     background-color: none;
     margin-top: 45vh;
     margin-left:10%;
@@ -57,7 +58,7 @@
 
 .Abouttext{
     /* border: 1px solid red; */
-    font-size: 3vh;
+    font-size: 1.4vw;
     margin: 0;
     text-align: justify;
     
@@ -73,7 +74,7 @@
 
 .Skillstext{
     /* border: 1px solid red; */
-    font-size: 3.5vh;
+    font-size: 1.4vw;
     color: var(--primary-color);
     text-align: center;
     margin: 0;
@@ -99,13 +100,13 @@
 .Tech {
     list-style: none; /* Remove default bullets */
     text-align: center;
-    font-size: 3vh;
+    font-size: 1.3vw;
     transition: 0.3s;
     margin: 0;
   }
 
 .Tech:hover{
-    font-size: 3.5vh;
+    font-size: 1.4vw;
 
 }
   
@@ -119,8 +120,8 @@
   }
 
 .Profile-picture{
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
     object-fit: scale-down;
     clip-path: circle();
     margin-top: 5%;
