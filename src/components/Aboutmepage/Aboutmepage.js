@@ -46,8 +46,8 @@ export default function Aboutmepage(){
                     </section>
                     <section className="Tech-list">
                         <p className="Tech">Tailwind CSS</p>
-                        <p className="Tech">Next JS</p>
-                        <p className="Tech">Typescript</p>
+                        <p className="Tech">Vue JS</p>
+                        <p className="Tech">React Native</p>
                     </section>
                     </section>
                 </section>

@@ -19,6 +19,7 @@
     width: 99%;
     height:99%;
     background-color: var(--primary-color);
+    color: var(--bg-color);
     opacity: 0%;
     transition: 0.4s;
     border-radius: 30px;
@@ -36,11 +37,16 @@
     opacity: 85%;
 }
 
+.card-overlay-title{
+    font-size: 1.8vw;
+    font-weight: bolder;
+}
+
 .icon-container{
     display: flex; 
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
 }
 
 .Icon-button{
@@ -52,6 +58,11 @@
     background-color: var(--primary-color);
     color: var(--bg-color);
     cursor: pointer;
+    font-size: 1.2vw;
+    width: 45%;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 .Icon-button:hover{
@@ -99,29 +110,31 @@
         border: 2px solid var(--primary-color);
         width: 99%;
         height:99%;
-        background-color: var(--primary-color);
-        opacity: 0%;
+        background-color: var(--low-opacity-primary-color);
         transition: 0.4s;
+        opacity: 100%;
         border-radius: 30px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        font-size: 2vw;
+        font-size: 3vw;
         z-index: 1;
         text-align: center;
         font-weight: bold;
     }
-    
-    .card-overlay:hover{
-        opacity: 85%;
+
+    .card-overlay-title{
+        font-size: 4vw;
     }
 
     .icon-container{
         width: 80%;
+        height: 20%;
         display: flex; 
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
+        align-items: center;
     }
     
     .Icon-button{
@@ -133,6 +146,9 @@
         background-color: var(--primary-color);
         color:var(--bg-color);
         cursor: pointer;
+        width: 80%;
+        height: 50%;
+        font-size: 2.5vw;
     }
     
     .Icon-button:hover{
