@@ -29,6 +29,8 @@ App- a div that containts all other elements.
     Fix the Experience page to render text correctly (not including the html elements) ✅
     Contact Info Page ✅
     Figure out what to do with the side blobs ✅
-    Add a footer (built by Noah Aldhous 2022)
-    Add a scroll down arrow on landing page!
+    Add a footer (built by Noah Aldhous 2022) ✅
+    Add a scroll down arrow on landing page! ✅
+    Add extra info to about me page 
+    Add badges / icons to experience for better visual
  */
