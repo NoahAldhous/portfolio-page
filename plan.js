@@ -31,6 +31,11 @@ App- a div that containts all other elements.
     Figure out what to do with the side blobs ✅
     Add a footer (built by Noah Aldhous 2022) ✅
     Add a scroll down arrow on landing page! ✅
-    Add extra info to about me page 
+    Add extra info to about me page-
+        expand for a -
+            'school of code section' 
+            'dnd section'
+            'film student section'
     Add badges / icons to experience for better visual
+
  */
