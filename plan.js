@@ -36,6 +36,7 @@ App- a div that containts all other elements.
             'school of code section' 
             'dnd section'
             'film student section'
+        -'what makes me unique'?
     Add badges / icons to experience for better visual
 
  */
