@@ -37,7 +37,7 @@ function App() {
   }
 
   function handleClick(page) {
-    document.querySelector(page).scrollIntoView();
+    document.querySelector(page).scrollIntoView(true);
   }
 
   return (
@@ -48,7 +48,7 @@ function App() {
         <div className="Left-arrow">{'<'}NAVIGATE</div>
           <LeftSemiCircle text = {"HOME"} handleClick={handleClick} page = ".Landingpage"/>
           <LeftSemiCircle text = {"ABOUT ME"} handleClick={handleClick} page= ".Aboutmepage"/>
-          <LeftSemiCircle text = {"PORTFOLIO"} handleClick={handleClick} page= ".PortfolioPage"/>
+          <LeftSemiCircle text = {"PORTFOLIO"} handleClick={handleClick} page= "#PortfolioPageSubheading"/>
           <LeftSemiCircle text = {"EXPERIENCE"} handleClick={handleClick} page= ".ExperiencePage"/>
           <LeftSemiCircle text = {"CONTACT"} handleClick={handleClick} page= ".ContactPage"/>
         </section>

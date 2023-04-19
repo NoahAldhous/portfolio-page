@@ -10,7 +10,7 @@ import myToDoList from './PortfolioImages/myToDoList.png'
 
 export default function PortfolioPage(){
    return <div className="PortfolioPage">
-            <h2 className="Subheading">MY PORTFOLIO</h2>
+            <h2 id="PortfolioPageSubheading" className="Subheading">MY PORTFOLIO</h2>
             <section className="Portfolio-grid">
                 <PortfolioCard githubLink = "https://github.com/NoahAldhous" deployedLink = "https://jungle-sum.netlify.app/" title = "JUNGLE SUMS" text = "an educational app for homeschooled children built with ReactJS, Auth0 and PostgreSQL." image = {jungleSums}/>
                 <PortfolioCard githubLink = "https://github.com/NoahAldhous/just-my-type" deployedLink = "https://visionary-klepon-ded6d3.netlify.app/" title = "JUST MY TYPE" text = "a simple game designed to test your typing skill. Built with ReactJS." image = {justMyType}/>
