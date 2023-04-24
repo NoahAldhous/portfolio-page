@@ -4,7 +4,6 @@ import jungleSums from './PortfolioImages/jungleSums.png';
 import justMyType from './PortfolioImages/justMyType.png';
 import pokebrawlz from './PortfolioImages/pokebrawlz.png';
 import portfoliopage from './PortfolioImages/portfoliopage.png';
-import digitalNoah from '../Aboutmepage/images/digitalnoah.png';
 import splitTheBill from './PortfolioImages/splitTheBill.png';
 import myToDoList from './PortfolioImages/myToDoList.png'
 
