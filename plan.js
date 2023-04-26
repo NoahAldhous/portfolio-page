@@ -19,12 +19,8 @@ App- a div that containts all other elements.
     !TO DO!
     Portfolio Images + Links set up. (polish the portfolio apps)
         -typing test (css, implement final features) ✅
-        -aws to do list (polish, css, deploy)
-        -reCapp app (fork + deploy)
+        -aws to do list (polish, css, deploy) ✅
         -final project (could be added now tbh) ✅
-        -some game (memory game?)
-        -weather app (css, deploy)
-        -
 
     Fix the Experience page to render text correctly (not including the html elements) ✅
     Contact Info Page ✅
@@ -37,6 +33,6 @@ App- a div that containts all other elements.
             'dnd section'
             'film student section'
         -'what makes me unique'?
-    Add badges / icons to experience for better visual
+    Add badges / icons to experience for better visuals
 
  */
