@@ -182,16 +182,6 @@
         height: 60%
     }
     
-    .Subheading{
-        margin: 0px;
-        margin-top: 1%;
-        font-size: 5vw;
-        color: var(--primary-color);
-        font-weight: lighter;
-        border: 1px solid orange;
-    
-    }
-    
     .Abouttext{
         /* border: 1px solid red; */
         font-size: 3.5vw;
