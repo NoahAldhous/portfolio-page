@@ -47,7 +47,7 @@ function App() {
         <section className="Navigate-Menu">
         <div className="Left-arrow">{'<'}NAVIGATE</div>
           <LeftSemiCircle text = {"HOME"} handleClick={handleClick} page = ".Landingpage"/>
-          <LeftSemiCircle text = {"ABOUT ME"} handleClick={handleClick} page= ".Aboutmepage"/>
+          <LeftSemiCircle text = {"ABOUT ME"} handleClick={handleClick} page= "#AboutMePageSubheading"/>
           <LeftSemiCircle text = {"PORTFOLIO"} handleClick={handleClick} page= "#PortfolioPageSubheading"/>
           <LeftSemiCircle text = {"EXPERIENCE"} handleClick={handleClick} page= ".ExperiencePage"/>
           <LeftSemiCircle text = {"CONTACT"} handleClick={handleClick} page= ".ContactPage"/>
@@ -67,7 +67,6 @@ function App() {
           <Semicircle text = {"LINKEDIN"} url={'https://www.linkedin.com/in/noah-aldhous/'}/>
           <Semicircle text = {"GITHUB"} url={'https://github.com/NoahAldhous'}/>
           <Semicircle text = {"TWITTER"} url={'https://twitter.com/theOldHaus'}/>
-          {/* <Semicircle text = {"INSTAGRAM"} url={'https://www.instagram.com/the_oldhaus/'}/> */}
           <Semicircle text = {"CV"} url={NoahAldhousCV}/>
         </section>
       </div>

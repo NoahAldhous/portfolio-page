@@ -113,6 +113,16 @@
   animation: fadeout 0.5s 1;
 }
 
+.Subheading{
+  margin: 0px;
+  margin-top: 3;
+  font-size: 5vw;
+  color: var(--primary-color);
+  font-weight: lighter;
+  /* border: 1px solid orange; */
+  padding-top: 5vh;
+}
+
 /* Phone Sizing */
 @media only screen and (max-width: 600px) {
   :root{
@@ -142,5 +152,13 @@
     width: 0vw;
     height: 0vh;
   }
+
+  .Subheading{
+    margin: 0px;
+    margin-top: 3%;
+    font-size: 10vw;
+    color: var(--primary-color);
+    font-weight: lighter;
+}
 
 }

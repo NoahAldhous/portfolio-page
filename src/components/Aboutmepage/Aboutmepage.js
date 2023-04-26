@@ -26,17 +26,27 @@ export default function Aboutmepage(){
     }
 
     return <div className= "Aboutmepage">
-        <h2 className= "Subheading">ABOUT ME</h2>
+        <h2 id="AboutMePageSubheading" className= "Subheading">ABOUT ME</h2>
         <section className= "Aboutme-container">
             <section className="Abouttext-container">
                 <p className="Abouttext">
                     Hi there! My name is Noah. <br/> 
-                    About 6 months ago I was working in 
+                    At the beginning of 2022, I was working in 
                     hospitality, and hadn't written a single line of code... <br/>
                     After 16 intense but incredible weeks on the SoC Bootcamp,
                     I've stopped being a server, and started building them!
                 </p>
-                <section className="Skills-container">
+            </section>
+            <section className= "Profile-card">
+                <img className="Profile-picture" src={image} alt="Noah Aldhous, wearing a shirt"/>
+                <Togglebutton handleChange = {handleChange}/>
+                <p className = "noah">{noah}</p>
+                <Listoflikes likes = {likes}/>
+            </section>
+
+        </section>
+        <section className='Aboutme-container'>
+            <section className="Skills-container">
                 <p className="Skillstext"> Currently Working With</p>
                 <section className="Tech-list-container">
                     <section className="Tech-list">
@@ -51,14 +61,6 @@ export default function Aboutmepage(){
                     </section>
                     </section>
                 </section>
-            </section>
-            <section className= "Profile-card">
-                <img className="Profile-picture" src={image} alt="Noah Aldhous, wearing a shirt"/>
-                <Togglebutton handleChange = {handleChange}/>
-                <p className = "noah">{noah}</p>
-                <Listoflikes likes = {likes}/>
-            </section>
-
         </section>
     </div>
 }

@@ -46,15 +46,7 @@
     /* height: 90%; */
 }
 
-.Subheading{
-    margin: 0px;
-    margin-top: 3%;
-    font-size: 5vw;
-    color: var(--primary-color);
-    font-weight: lighter;
-    /* border: 1px solid orange; */
 
-}
 
 .Abouttext{
     /* border: 1px solid red; */
@@ -196,7 +188,7 @@
         font-size: 5vw;
         color: var(--primary-color);
         font-weight: lighter;
-        /* border: 1px solid orange; */
+        border: 1px solid orange;
     
     }
     
