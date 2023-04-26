@@ -30,11 +30,26 @@ export default function Aboutmepage(){
         <section className= "Aboutme-container">
             <section className="Abouttext-container">
                 <p className="Abouttext">
-                    Hi there! My name is Noah. <br/> 
-                    At the beginning of 2022, I was working in 
-                    hospitality, and hadn't written a single line of code... <br/>
-                    After 16 intense but incredible weeks on the SoC Bootcamp,
-                    I've stopped being a server, and started building them!
+                    Hi there! My name is Noah.     
+                    <br/> 
+                    <br/> 
+                    Like many programmers, I grew up a HUGE nerd. 
+                    I was obsessed with Fantasy and Science Fiction worlds, and although I did well in school, I didn't really enjoy academic subjects; 
+                    I wanted to make things!
+                    <br/>
+                    <br/>
+                    I studied Film Production at Arts University Bournemouth, and it was here I really developed my love for collaborative creation.
+                    <br/>
+                    <br/>
+                    However, I struggled to get a career in film, and so settled for working in hospitality to make ends meet... 
+                    <br/>
+                    <br/>
+                    Until the beginning of 2022, when a friend recommended I try out a coding bootcamp, something I had never considered I'd be any 
+                    good at, let alone enjoy...
+                    <br/>
+                    <br/>
+                    After an intense 16 weeks of learning with the School of Code, I came out the other side an enthusiastic JavaScript programmer, eager to learn more and ultimately 
+                    pursue a career in software development!
                 </p>
             </section>
             <section className= "Profile-card">
