@@ -26,7 +26,7 @@ function App() {
           document.querySelector(".Icon-container").style.top = "91%";
       }
       else if (prevScrollpos > currentScrollPos){
-          document.querySelector(".light-mode-button-container").style.top = "-10%";
+          document.querySelector(".light-mode-button-container").style.top = "0";
       } 
       else {
           document.querySelector(".light-mode-button-container").style.top = "-15vh";

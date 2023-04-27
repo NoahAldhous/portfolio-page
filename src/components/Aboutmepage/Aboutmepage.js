@@ -62,7 +62,8 @@ export default function Aboutmepage(){
         </section>
         <section className='Aboutme-container'>
             <section className="Skills-container">
-                <p className="Skillstext"> Currently Working With</p>
+            TODO: update currently working with to include icons.
+                <p className="Skillstext"> I have experience Working With</p>
                 <section className="Tech-list-container">
                     <section className="Tech-list">
                             <p className="Tech">React JS</p>
