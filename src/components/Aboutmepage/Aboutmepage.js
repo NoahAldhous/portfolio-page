@@ -5,7 +5,9 @@ import digitalnoah from './images/digitalnoah.png';
 import Listoflikes from './Listoflikes/Listoflikes';
 import { humanLikes, digitalLikes } from './data/likes';
 import Togglebutton from './Togglebutton/Togglebutton';
-import { DiReact } from "react-icons/di";
+import { DiReact, DiMongodb, DiGitBranch } from "react-icons/di";
+import { RiVuejsFill } from "react-icons/ri";
+import { SiNpm, SiHeroku, SiJest, SiPostgresql, SiTypescript, SiNodedotjs, SiExpress, SiTailwindcss, SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
 
 
 export default function Aboutmepage(){
@@ -66,14 +68,45 @@ export default function Aboutmepage(){
                 <p className="Skillstext"> I have experience working with</p>
                 <section className="Tech-list-container">
                     <section className="Tech-list">
-                        <a href= "https://github.com/NoahAldhous/pokemonfetchapp" className="Tech">{ <DiReact className="Icon" size = {40}/> }</a>
-                        <p className="Tech">MongoDB</p>
-                        <p className="Tech">Auth0</p>
+                        <div className="Icon">{ <SiHtml5 size = {40}/> }</div>
+                        <p className="Tech">HTML 5</p>
+                        <div className="Icon">{ <DiReact size = {40}/> }</div>
+                        <p className="Tech">ReactJS</p>
+                        <div className="Icon">{ <SiHeroku size = {40}/> }</div>
+                        <p className="Tech">Heroku</p>
+                        <div className="Icon">{ <SiJest size = {40}/> }</div>
+                        <p className="Tech">Jest</p>
                     </section>
                     <section className="Tech-list">
+                        <div className="Icon">{ <SiCss3 size = {40}/> }</div>
+                        <p className="Tech">CSS 3</p>
+                        <div className="Icon">{ <SiTailwindcss size = {40}/> }</div>
                         <p className="Tech">Tailwind CSS</p>
+                        <div className="Icon">{ <RiVuejsFill size = {40}/> }</div>
                         <p className="Tech">Vue JS</p>
+                        <div className="Icon">{ <DiReact size = {40}/> }</div>
                         <p className="Tech">React Native</p>
+                    </section>
+                    <section className="Tech-list">
+                        <div className="Icon">{ <SiJavascript size = {40}/> }</div>
+                        <p className="Tech">Javascript</p>
+                        <div className="Icon">{ <SiPostgresql size = {40}/> }</div>
+                        <p className="Tech">PostgreSQL</p>
+                        <div className="Icon">{ <SiNpm size = {40}/> }</div>
+                        <p className="Tech">NPM</p>
+                        <div className="Icon">{ <SiNodedotjs size = {40}/> }</div>
+                        <p className="Tech">NodeJS</p>
+                    </section>
+                    <section className="Tech-list">
+                        <div className="Icon">{ <SiTypescript size = {40}/> }</div>
+                        <p className="Tech">Typescript</p>
+                        <div className="Icon">{ <SiExpress size = {40}/> }</div>
+                        <p className="Tech">Express</p>
+                        <div className="Icon">{ <DiMongodb className="Icon" size = {40}/> }</div>
+                        <p className="Tech">MongoDB</p>
+                        <div className="Icon">{ <DiGitBranch  size = {40}/> }</div>
+                        <p className="Tech">Git</p>
+
                     </section>
                     </section>
                 </section>
