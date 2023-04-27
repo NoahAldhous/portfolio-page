@@ -15,12 +15,12 @@
 .Aboutme-container{
     display: flex; 
     justify-content: space-evenly;
-    border: 1px solid orange; 
+    /* border: 1px solid orange;  */
     align-items: center;
     max-height: 100%;
     padding: 1%;
     padding-top: 2%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
 .Abouttext-container{
@@ -50,8 +50,6 @@
     height: 100%;
 }
 
-
-
 .Abouttext{
     /* border: 1px solid red; */
     font-size: 1.2vw;
@@ -61,20 +59,21 @@
 }
 
 .Skills-container{
-    /* border: 3px solid green; */
+    border: 1px solid green;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 50%
+    height: 100%;
+    width: 100%;
 }
 
 .Skillstext{
     /* border: 1px solid red; */
-    font-size: 1.4vw;
+    font-size: 1.8vw;
     color: var(--primary-color);
     text-align: center;
     margin: 0;
-    margin-top: 5%;
+    margin-top: 0%;
 }
 
 .Tech-list-container{
@@ -94,26 +93,16 @@
 }
 
 .Tech {
-    list-style: none; /* Remove default bullets */
     text-align: center;
     font-size: 1.3vw;
     transition: 0.3s;
     margin: 0;
   }
 
-.Tech:hover{
-    font-size: 1.4vw;
-
+.Icon{
+    color: var(--primary-color)
 }
-  
-.Tech::before {
-    content: "\>";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: var(--primary-color);; /* Change the color */
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-  }
+
 
 .Profile-picture{
     width: 70%;

@@ -5,6 +5,8 @@ import digitalnoah from './images/digitalnoah.png';
 import Listoflikes from './Listoflikes/Listoflikes';
 import { humanLikes, digitalLikes } from './data/likes';
 import Togglebutton from './Togglebutton/Togglebutton';
+import { DiReact } from "react-icons/di";
+
 
 export default function Aboutmepage(){
 
@@ -58,18 +60,15 @@ export default function Aboutmepage(){
                     pursue a career in software development!
                 </p>
             </section>
-            
-
         </section>
         <section className='Aboutme-container'>
             <section className="Skills-container">
-            TODO: update currently working with to include icons.
-                <p className="Skillstext"> I have experience Working With</p>
+                <p className="Skillstext"> I have experience working with</p>
                 <section className="Tech-list-container">
                     <section className="Tech-list">
-                            <p className="Tech">React JS</p>
-                            <p className="Tech">MongoDB</p>
-                            <p className="Tech">Auth0</p>
+                        <a href= "https://github.com/NoahAldhous/pokemonfetchapp" className="Tech">{ <DiReact className="Icon" size = {40}/> }</a>
+                        <p className="Tech">MongoDB</p>
+                        <p className="Tech">Auth0</p>
                     </section>
                     <section className="Tech-list">
                         <p className="Tech">Tailwind CSS</p>
