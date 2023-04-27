@@ -28,6 +28,12 @@ export default function Aboutmepage(){
     return <div className= "Aboutmepage">
         <h2 id="AboutMePageSubheading" className= "Subheading">ABOUT ME</h2>
         <section className= "Aboutme-container">
+            <section className= "Profile-card">
+                <img className="Profile-picture" src={image} alt="Noah Aldhous, wearing a shirt"/>
+                <Togglebutton handleChange = {handleChange}/>
+                <p className = "noah">{noah}</p>
+                <Listoflikes likes = {likes}/>
+            </section>
             <section className="Abouttext-container">
                 <p className="Abouttext">
                     Hi there! My name is Noah.     
@@ -52,12 +58,7 @@ export default function Aboutmepage(){
                     pursue a career in software development!
                 </p>
             </section>
-            <section className= "Profile-card">
-                <img className="Profile-picture" src={image} alt="Noah Aldhous, wearing a shirt"/>
-                <Togglebutton handleChange = {handleChange}/>
-                <p className = "noah">{noah}</p>
-                <Listoflikes likes = {likes}/>
-            </section>
+            
 
         </section>
         <section className='Aboutme-container'>
