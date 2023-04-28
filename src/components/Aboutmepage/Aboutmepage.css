@@ -230,7 +230,7 @@
     .Tech {
         list-style: none; /* Remove default bullets */
         text-align: center;
-        font-size: 3.1vw;
+        font-size: 3vw;
         transition: 0.3s;
         margin: 0;
         margin-bottom: 20%;
