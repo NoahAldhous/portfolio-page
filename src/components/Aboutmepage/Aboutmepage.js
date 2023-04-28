@@ -90,10 +90,10 @@ export default function Aboutmepage(){
                     <section className="Tech-list">
                         <div className="Icon">{ <SiJavascript size = {40}/> }</div>
                         <p className="Tech">Javascript</p>
-                        <div className="Icon">{ <SiPostgresql size = {40}/> }</div>
-                        <p className="Tech">PostgreSQL</p>
                         <div className="Icon">{ <SiNpm size = {40}/> }</div>
                         <p className="Tech">NPM</p>
+                        <div className="Icon">{ <SiPostgresql size = {40}/> }</div>
+                        <p className="Tech">PostgreSQL</p>
                         <div className="Icon">{ <SiNodedotjs size = {40}/> }</div>
                         <p className="Tech">NodeJS</p>
                     </section>
