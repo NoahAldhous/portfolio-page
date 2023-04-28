@@ -36,17 +36,16 @@
         width: 80%;
         text-align: center;
         align-items: center;
-        border: none;
-        border-bottom: 1px solid var(--primary-color);
+        border: 1px solid var(--primary-color);
         background-color: transparent;
         color: var(--primary-color);
         font-family: inherit;
         font-weight: bold;
         font-size: 3vw;
-        padding: 0%;
+        padding: 2%;
         text-decoration: none;
         transition: 0.3s;
-        border-radius: 1px;
+        border-radius: 5px;
     }
 
     .Header-Button:hover{
