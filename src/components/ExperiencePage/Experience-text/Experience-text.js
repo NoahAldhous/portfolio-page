@@ -1,6 +1,15 @@
 import "./Experience-text.css"
 
 export default function ExperienceText({activeButton}){
+
+    function setTheDate(){
+        const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        const date = new Date();
+        const year = date.getFullYear();
+        const month = months[date.getMonth()];
+        return month + " " + year;
+    }
+
     switch(activeButton){
         case ".SoC-Button":
             return  <section className="Experience-text-container">
@@ -20,7 +29,7 @@ export default function ExperienceText({activeButton}){
         case ".Firstjob-button":
             return <section className="Experience-text-container">
             <h3 className="Experience-text-header">COULD BE YOU!</h3>
-            <h3 className="Experience-date">August 2022 - ???</h3>
+            <h3 className="Experience-date">{setTheDate()} - ???</h3>
             <p className="Experience-text">
                 I'm fresh out of the School of Code and ready to start my career in the weird
                 and wonderful world of tech!

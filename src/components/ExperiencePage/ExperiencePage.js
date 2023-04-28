@@ -4,7 +4,8 @@ import ExperienceText from "./Experience-text/Experience-text";
 
 export default function ExperiencePage(){
 
-    const[activeButton, setActiveButton] = useState(".SoC-Button")
+    const[activeButton, setActiveButton] = useState(".SoC-Button");
+
 
     function handleClick(button){
         setActiveButton(button);
