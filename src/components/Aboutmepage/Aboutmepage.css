@@ -134,7 +134,7 @@
 @media only screen and (max-width: 600px) {
     .Aboutmepage{
         width:100%;
-        height: 100vh;
+        height: fit-content;
         background-color: none;
         margin-top: 45vh;
         margin-left:0%;
@@ -198,16 +198,17 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        height: 50%
+        height: 100%
     }
     
     .Skillstext{
         /* border: 1px solid red; */
-        font-size: 3.5vw;
+        font-size: 4vw;
         color: var(--primary-color);
         text-align: center;
         margin: 0;
         margin-top: 1%;
+        margin-bottom: 8%;
     }
     
     .Tech-list-container{
@@ -229,24 +230,12 @@
     .Tech {
         list-style: none; /* Remove default bullets */
         text-align: center;
-        font-size: 3vw;
+        font-size: 3.1vw;
         transition: 0.3s;
         margin: 0;
+        margin-bottom: 20%;
       }
-    
-    .Tech:hover{
-        font-size: 3.5vw;
-    }
-      
-    .Tech::before {
-        content: "\>";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-        color: var(--primary-color);; /* Change the color */
-        font-weight: bold; /* If you want it to be bold */
-        display: inline-block; /* Needed to add space between the bullet and the text */
-        width: 1em; /* Also needed for space (tweak if needed) */
-        margin-left: -1em; /* Also needed for space (tweak if needed) */
-      }
-    
+
     .Profile-picture{
         max-width: 50%;
         max-height: 50%;
